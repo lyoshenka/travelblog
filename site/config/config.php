@@ -485,6 +485,8 @@ Blogprint Configuration
 
 */
 
+c::set('autopublish.templates', []);
+
 c::set('pagination-posts', 10);
 c::set('pagination-archive', 30);
 c::set('pagination-search', 30);

@@ -1,5 +1,53 @@
 <?php
 
+
+function getPostHtml($post) {
+
+  ob_start();
+?>
+
+<li class="post">
+
+  <div class="meta">
+    <h4>
+      <a href="<?php echo getPostUrl($post) ?>" title="<?php echo $post->date('F d, Y') ?>"><?php echo $post->date('d M') ?></a>
+    </h4>
+  </div>
+
+  <div class="content text-post">
+    <h3 class="title_gap"><?php echo $post->title()->html() ?></h3>
+
+    <?php /*snippet('post-footer', array('post'       => $post,
+                                       'author'     => true,
+                                       'avatar'     => true,
+                                       'tags'       => true,
+                                       'categories' => true)) */ ?>
+
+    <?php // echo getCoverImage($post) ?>
+
+
+    <div class="text">
+      <?php echo $post->text()->kirbytext() ?>
+    </div>
+
+    <?php if ($post->hasImages()): ?>
+      <?php foreach($post->images() as $image): ?>
+        <a data-no-instant href="<?php echo $image->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->name() ?>"></a>
+      <?php endforeach ?>
+    <?php endif ?>
+
+  </div>
+
+  <?php // echo snippet('nav-pager') ?>
+
+</li>
+
+<?php 
+
+  return ob_get_clean();
+}
+
+
 /**
  * getPostUrl()
  *
