@@ -1,0 +1,5 @@
+﻿Title: Home
+
+----
+
+Text: Let's compile Trudge history in one place.
