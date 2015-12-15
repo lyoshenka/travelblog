@@ -3,7 +3,7 @@
 <section id="search">
 
 <?php if($query): ?>
-  <h1><?= $page->resultTitle() ?> "<?= $query ?>"</h1>
+  <h1><?php echo $page->resultTitle() ?> "<?php echo $query ?>"</h1>
 
     <section id="searchresults">
     <?php if($results != "" ): ?>
@@ -15,8 +15,8 @@
                 <header>
                   <h1>
                     Post:
-                    <a href="<?= getPostUrl($result) ?>">
-                      <?= $result->title()->html() ?>
+                    <a href="<?php echo getPostUrl($result) ?>">
+                      <?php echo $result->title()->html() ?>
                     </a>
                   </h1>
                 </header>
@@ -27,8 +27,8 @@
                 <header>
                   <h1>
                     Page:
-                    <a href="<?= $result->url() ?>">
-                      <?= $result->title()->html() ?>
+                    <a href="<?php echo $result->url() ?>">
+                      <?php echo $result->title()->html() ?>
                     </a>
                   </h1>
                 </header>
@@ -40,12 +40,12 @@
       <?php endforeach ?>
 
   <?php else: ?>
-    <?= $page->noposts()->kirbytext() ?>
+    <?php echo $page->noposts()->kirbytext() ?>
   <?php endif ?>
   </section>
 <?php else: ?>
- <h1><?= $page->title() ?></h1>
- <?= $page->nosearch()->kirbytext() ?>
+ <h1><?php echo $page->title() ?></h1>
+ <?php echo $page->nosearch()->kirbytext() ?>
 <?php endif ?>
 
 </section>

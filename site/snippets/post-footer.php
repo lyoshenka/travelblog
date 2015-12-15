@@ -11,9 +11,9 @@ if(!isset($class))    $class    = false;
 
   <?php if($date): ?>
     <div class="datetime">
-      <time datetime="<?= $post->date('Y-m-d') ?>">
+      <time datetime="<?php echo $post->date('Y-m-d') ?>">
         Date:
-        <?= $post->date('Y/m/d') ?>
+        <?php echo $post->date('Y/m/d') ?>
       </time>
     </div>
   <?php endif ?>
@@ -21,8 +21,8 @@ if(!isset($class))    $class    = false;
   <?php if($author && $post->author() != ""): ?>
     <div class="author">
       Author:
-      <a href="<?= $site->url() ?>/author/<?= urlencode($post->author()) ?>">
-        <?= getAuthorName((string)$post->author()) ?>
+      <a href="<?php echo $site->url() ?>/author/<?php echo urlencode($post->author()) ?>">
+        <?php echo getAuthorName((string)$post->author()) ?>
       </a>
     </div>
   <?php endif ?>
@@ -31,8 +31,8 @@ if(!isset($class))    $class    = false;
     <?php if($avatar = $site->user((string)$post->author())->avatar()): ?>
       <div class="avatar">
         Avatar:
-        <img src="<?= $avatar->url() ?>"
-             alt="<?= getAuthorName((string)$post->author()) ?>'s avatar">
+        <img src="<?php echo $avatar->url() ?>"
+             alt="<?php echo getAuthorName((string)$post->author()) ?>'s avatar">
       </div>
     <?php endif ?>
   <?php endif ?>
@@ -43,8 +43,8 @@ if(!isset($class))    $class    = false;
       <ul>
         <?php foreach($post->tags()->split(',') as $tag): ?>
           <li>
-            <a href="<?= $site->url() ?>/tag/<?= urlencode($tag) ?>">
-              <?= $tag ?>
+            <a href="<?php echo $site->url() ?>/tag/<?php echo urlencode($tag) ?>">
+              <?php echo $tag ?>
             </a>
           </li>
         <?php endforeach ?>
@@ -55,10 +55,10 @@ if(!isset($class))    $class    = false;
   <?php if($category &&  $post->category() != ""): ?>
     <div class="category">
       Category:
-      <a href="<?= $site->url()
+      <a href="<?php echo $site->url()
                  . '/category/'
                  . urlencode($post->category()) ?>">
-        <?= $post->category()->html() ?>
+        <?php echo $post->category()->html() ?>
       </a>
     </div>
   <?php endif ?>

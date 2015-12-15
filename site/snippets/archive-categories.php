@@ -9,7 +9,7 @@
     <?php foreach($categories as $category): ?>
       <li>
         <a href="<?php echo $category->url() ?>">
-          <?php echo $category->name() ?> (<?= $category->results() ?>)
+          <?php echo $category->name() ?> (<?php echo $category->results() ?>)
         </a>
       </li>
     <?php endforeach ?>

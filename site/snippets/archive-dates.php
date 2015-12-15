@@ -10,17 +10,17 @@ if(!isset($class)) $class = false;
   <ul>
   <?php foreach ($dates as $year => $months): ?>
     <li>
-      <a href="/<?= $year ?>">
-        <?= $year ?>
+      <a href="/<?php echo $year ?>">
+        <?php echo $year ?>
       </a>
       <ul>
       <?php foreach ($months as $month => $number): ?>
         <?php $month = DateTime::createFromFormat('!m', $month) ?>
         <li>
-          <a href="<?= $site->url()
+          <a href="<?php echo $site->url()
                        . '/' . $year
                        . '/' . $month->format('m') ?>">
-            <?= $month->format('F') ?> (<?= $number ?>)
+            <?php echo $month->format('F') ?> (<?php echo $number ?>)
           </a>
         </li>
       <?php endforeach ?>

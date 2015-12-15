@@ -9,7 +9,7 @@
   <?php foreach($tags as $tag): ?>
     <li>
       <a href="<?php echo $tag->url() ?>">
-        <?php echo $tag->name() ?> (<?= $tag->results() ?>)
+        <?php echo $tag->name() ?> (<?php echo $tag->results() ?>)
       </a>
     </li>
   <?php endforeach ?>

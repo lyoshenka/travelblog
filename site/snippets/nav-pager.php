@@ -3,16 +3,16 @@
 
     <?php if($post->hasNextVisible()): ?>
       <li id="next-post">
-        <a href="<?= $post->nextVisible()->url() ?>">
-          next post:<?= $post->nextVisible()->title()->html() ?>
+        <a href="<?php echo $post->nextVisible()->url() ?>">
+          next post:<?php echo $post->nextVisible()->title()->html() ?>
         </a>
       </li>
     <?php endif ?>
 
     <?php if($post->hasPrevVisible()): ?>
       <li class="previous-post">
-        <a href="<?= $post->prevVisible()->url() ?>">
-          previous post: <?= $post->prevVisible()->title()->html() ?>
+        <a href="<?php echo $post->prevVisible()->url() ?>">
+          previous post: <?php echo $post->prevVisible()->title()->html() ?>
         </a>
       </li>
     <?php endif ?>

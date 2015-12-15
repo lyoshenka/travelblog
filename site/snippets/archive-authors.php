@@ -9,7 +9,7 @@
     <?php foreach($authors as $author): ?>
       <li>
         <a href="<?php echo $author->url() ?>">
-          <?= getAuthorName($author->name()) ?> (<?= $author->results() ?>)
+          <?php echo getAuthorName($author->name()) ?> (<?php echo $author->results() ?>)
         </a>
       </li>
     <?php endforeach ?>

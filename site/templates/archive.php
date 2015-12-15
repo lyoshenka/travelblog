@@ -17,7 +17,7 @@ foreach($posts as $post): ?>
       if ($tmpDate['year'] != $date['year']): ?>
         <header class="archive-year">
           <h2>
-            <?= $date['year'] ?>
+            <?php echo $date['year'] ?>
           </h2>
         </header>
     <?php endif ?>
@@ -26,8 +26,8 @@ foreach($posts as $post): ?>
   <article>
     <header>
       <h1>
-        <a href="<?= getPostUrl($post) ?>">
-          <?= $post->title()->html() ?>
+        <a href="<?php echo getPostUrl($post) ?>">
+          <?php echo $post->title()->html() ?>
         </a>
       </h1>
     </header>
@@ -42,7 +42,7 @@ endforeach ?>
 
 <?php else: ?>
 
-  <?= $page->noposts()->kirbytext() ?>
+  <?php echo $page->noposts()->kirbytext() ?>
 
 <?php endif ?>
 

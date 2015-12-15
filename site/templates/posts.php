@@ -6,8 +6,8 @@
   <article>
     <header>
       <h1>
-        <a href="<?= getPostUrl($post) ?>">
-          <?= $post->title()->html() ?>
+        <a href="<?php echo getPostUrl($post) ?>">
+          <?php echo $post->title()->html() ?>
         </a>
       </h1>
     </header>
@@ -17,9 +17,9 @@
                                        'tags'       => true,
                                        'category'   => true)) ?>
 
-    <?= getCoverImage($post) ?>
+    <?php echo getCoverImage($post) ?>
 
-    <?= $post->text()->kirbytext() ?>
+    <?php echo $post->text()->kirbytext() ?>
 
   </article>
 <?php endforeach ?>

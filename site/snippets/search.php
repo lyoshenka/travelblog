@@ -1,4 +1,4 @@
-<form action="<?= $site->find('search')->url() ?>">
+<form action="<?php echo $site->find('search')->url() ?>">
   <input type="text" placeholder="search..." name="q">
   <select name="l">
     <option value="posts" selected>Posts</option>

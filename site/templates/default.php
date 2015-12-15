@@ -1,9 +1,9 @@
 <?php snippet('header') ?>
 
 <header>
-  <h1><?= $page->title()->html() ?></h1>
+  <h1><?php echo $page->title()->html() ?></h1>
 </header>
 
-<?= $page->text()->kirbytext() ?>
+<?php echo $page->text()->kirbytext() ?>
 
 <?php snippet('footer') ?>
