@@ -1,10 +1,12 @@
 server {
-  server_name trudge.grin.io;
+  server_name travel.grin.io;
   listen  80;
-  root /home/grin/trudge;
+  root /home/grin/travel;
   access_log /dev/null;
   error_log /dev/null;
   index index.php index.html index.htm;
+
+  client_max_body_size 25M;
 
   location ~* .(?:xml|ogg|mp3|mp4|ogv|svg|svgz|eot|otf|woff|ttf|jpg|jpeg|gif|png|ico)$ { #css|js
     try_files $uri =404;
@@ -35,6 +37,7 @@ server {
     include        fastcgi_params;
     fastcgi_param  SCRIPT_FILENAME $document_root$fastcgi_script_name;
     fastcgi_param  PATH_INFO $fastcgi_script_name;
+    fastcgi_param  PHP_VALUE "upload_max_filesize=25M \n post_max_size=25M";
     fastcgi_pass   unix:/var/run/php5-fpm.sock;
   }
 
