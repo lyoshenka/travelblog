@@ -157,6 +157,7 @@ header {
   list-style: none;
   padding-bottom: 26px;
   max-width: @contentWidth;
+  margin-bottom: 40px;
   clear: both;
 }
 
@@ -173,39 +174,31 @@ header {
   padding-bottom: 30px;
 }
 
-#pagination p {
+#pagination {
   font-size: @captionSize;
   min-width: 150px;
-  line-height: autopx;
-  margin: 0 0 10px;
+  line-height: auto;
+  margin: 40px 0;
   white-space: nowrap;
-}
-
-#pagination p.back {
-  display: inline;
-  text-align: right;
-  float: right;
-  margin-left: 20px;
-}
-
-#pagination p.forward {
-  display: inline;
-  float: left;
-  margin-right: 1.5em;
-}
-
-#pagination a {  font-style: italic }
-
-#pagination .page {
   text-align: center;
-  font: 12px @bodyFont;
-  margin-bottom: 20px;
-  text-transform: lowercase;
+ 
+  ul {
+    list-style: none;
+  }  
+
+  li {
+    display: inline-block;
+    margin: 0 3px;
+    padding: 1px;
+    
+    &.active {
+      font-weight: bold;
+      border-bottom: dotted 1px @linkColor;
+    }
+  }
 }
 
-#pagination {
-  display: none; /* for infinite scroll*/
-}
+
 
 #credits {
   clear: both;
@@ -449,23 +442,16 @@ ins em {  font-style: normal }
 
 
 abbr,
-
 acronym,
-
 .caps {
-
   font-size: 12px;
-
   letter-spacing: 0.1em;
-
   word-spacing: 0.1em;
-
 }
 
 
 
 abbr,
-
 acronym {  text-transform: uppercase }
 
 
@@ -475,31 +461,19 @@ acronym {  text-transform: uppercase }
 
 
 .text {
-
   width: @captionWidth;
-
   margin-bottom: 20px;
-
   margin-left: auto;
-
   margin-right: auto;
-
-
 }
 
 
 
 .caption {
-
   width: @captionWidth;
-
   margin-bottom: 20px;
-
   margin-left: auto;
-
   margin-right: auto;
-
-
 }
 
 
@@ -535,39 +509,26 @@ acronym {  text-transform: uppercase }
 
 
 .post img,
-
 .post object,
-
 .post embed {
-
   max-width: 100%;
-
   nowhitespace: afterproperty;
-
   width: @contentWidth;
-
   /* width - for stretching small images */
-
 }
 
 
 
 .link-post h3 {
-
   padding: 0;
-
   margin-bottom: 18px;
-
 }
 
 
 
 .photo-post .photo {
-
   margin-bottom: 19px;
-
   margin-top: 20px;
-
 }
 
 
@@ -641,76 +602,6 @@ acronym {  text-transform: uppercase }
   border-radius: 5px;
 
 }
-
-
-
-.chat-post ol {
-
-  list-style: none;
-
-  margin: 15px 0;
-
-}
-
-
-
-.chat-post li {
-
-  margin-left: 1.5em;
-
-  text-indent: -1.5em;
-
-}
-
-
-
-.chat-post .label {
-
-  font-weight: bold;
-
-  padding-right: 0.125em;
-
-}
-
-
-
-.chat-post .speaker {  font-style: italic }
-
-
-
-.chat-post .speaker2 .label,
-
-.chat-post .speaker4 .label,
-
-.chat-post .speaker6 .label,
-
-.chat-post .speaker8 .label {  color: @minorTextColor }
-
-
-
-.chat-post .speaker3 .label,
-
-.chat-post .speaker4 .label,
-
-.chat-post .speaker7 .label,
-
-.chat-post .speaker8 .label {
-
-  text-transform: uppercase;
-
-  letter-spacing: 0.1em;
-
-}
-
-
-
-.chat-post .speaker5 .label,
-
-.chat-post .speaker6 .label,
-
-.chat-post .speaker7 .label,
-
-.chat-post .speaker8 .label {  font-family: @headerFont }
 
 
 

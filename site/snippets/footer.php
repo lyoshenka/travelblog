@@ -1,8 +1,3 @@
-  
-
-
-    </ol> <!-- .posts -->
-
 
 
 
@@ -50,7 +45,7 @@
       <br><br>
 */ ?>
 
-      <center><small><a href="{RSS}">RSS</a></small></center>
+      <center><small><a href="/feed">RSS</a></small></center>
 
     </div> <!-- .footer -->
 
@@ -62,10 +57,13 @@
 
 
 
-<footer>
+  <footer>
     <?php echo kirbytext($site->copyright()) ?>
   </footer>
 
+  <!-- jquery-2.1.4.min.js  jquery.photoset-grid.min.js -->
+  <script src="/assets/js/jquery-2.1.4.min.js" data-no-instant></script>
+  <script src="/assets/js/jquery.photoset-grid.min.js" data-no-instant></script>
   <script src="/assets/js/instantclick.min.js" data-no-instant></script>
   <script data-no-instant>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -77,6 +75,10 @@
 
     InstantClick.on('change', function() {
       ga('send', 'pageview', location.pathname + location.search);
+      $('.photoset[data-layout]').photosetGrid({
+        gutter: "10px",
+        highresLinks: true,
+      });
     });
       
     InstantClick.init('mousedown');

@@ -8,10 +8,7 @@
   <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
   <meta name="robots" content="index, follow" />
   <link rel="shortcut icon" href="/assets/images/favicon.png"/>
-
-  <!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="{RSS}"/> -->
-
-
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed"/>
 
   <?php echo css('assets/styles/normalize.css') ?>
   <?php echo less('assets/styles/styles.less') ?>
@@ -58,5 +55,3 @@
   <?php // snippet('search') ?>
 
 
-
-    <ol id="posts">

@@ -1,5 +1,9 @@
 <?php snippet( 'header') ?>
 
-<?php echo getPostHtml($post) ?>
+<ol id="posts">
+  <?php echo getPostHtml($post) // code in site/plugins/helpers.php ?>
+</ol>
+
+<?php snippet('nav-pager') ?>
 
 <?php snippet('footer') ?>

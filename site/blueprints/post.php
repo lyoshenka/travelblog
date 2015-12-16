@@ -1,7 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Post
-pages:false
+pages: false
 files:
   sortable:true
 fields:
@@ -11,7 +11,7 @@ fields:
   date:
     label: Date & Time
     type: datetime
-    default: <?php echo date('Y-m-d') ?>
+    default: now
     width: 1/2
     time:
       format: 24
@@ -40,6 +40,10 @@ fields:
   text:
     label: Text
     type: textarea
+  imagelayout:
+    label: Photo Layout
+    type: text
+    help: How the images will be arranged. For example, "231" means the 1st row has 2 images, the 2nd row has 3 images, and the 3rd row has 1 image. Total of 6 images.
   captions:
     label: Image Captions
     type: structure

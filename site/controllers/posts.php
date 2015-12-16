@@ -5,7 +5,7 @@ return function($site, $pages, $page) {
   // get all posts
   $posts = $page->children()
                 ->visible()
-                ->flip();
+                ->sortBy('date', 'desc');
 
   // add pagination
   $posts = $posts->paginate(c::get('pagination-posts'));

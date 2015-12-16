@@ -5,7 +5,7 @@ return function($site, $pages, $page, $data) {
   // get all posts
   $posts = $site->find('posts')->children()
                                ->visible()
-                               ->flip();
+                               ->sortBy('date', 'desc');
 
   $archiveTitle = null;
 

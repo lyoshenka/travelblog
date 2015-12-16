@@ -1,6 +1,19 @@
 <?php
 
 
+function getPhotosetLayout($count, $forcedLayout = null) {
+  if ($forcedLayout != "") {
+    return $forcedLayout;
+  }
+
+  if ($count > 3 && $count%3 == 1) {
+    return str_repeat('3',$count/3 - 1) . '22';
+  }
+
+  return str_repeat('3',$count/3) . ($count % 3);
+}
+
+
 function getPostHtml($post) {
 
   ob_start();
@@ -26,19 +39,27 @@ function getPostHtml($post) {
     <?php // echo getCoverImage($post) ?>
 
 
-    <div class="text">
-      <?php echo $post->text()->kirbytext() ?>
-    </div>
+    <?php if ($post->text() != ""): ?>
+      <div class="text">
+        <?php echo $post->text()->kirbytext() ?>
+      </div>
+    <?php endif ?>
 
     <?php if ($post->hasImages()): ?>
-      <?php foreach($post->images() as $image): ?>
-        <a data-no-instant href="<?php echo $image->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $image->name() ?>"></a>
-      <?php endforeach ?>
+      <div class="photoset" data-layout="<?php echo getPhotosetLayout($post->images()->count(), $post->imagelayout()) ?>">
+        <?php foreach($post->images() as $image): ?>
+	  <?php $dimensions = $image->dimensions()->fitWidth(875) ?>
+            <img src="<?php echo $image->url() ?>" 
+                 width="<?php echo $dimensions->width() ?>" 
+                 height="<?php echo $dimensions->height() ?>" 
+                 alt="<?php echo $image->name() ?>"
+                 data-hires="<?php echo $image->url() ?>"
+            />
+        <?php endforeach ?>
+      </div>
     <?php endif ?>
 
   </div>
-
-  <?php // echo snippet('nav-pager') ?>
 
 </li>
 
