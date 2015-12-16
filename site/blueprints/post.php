@@ -3,7 +3,7 @@
 title: Post
 pages: false
 files:
-  sortable:true
+  sortable: true
   fields:
     caption:
       label: Caption
@@ -48,14 +48,3 @@ fields:
     label: Photo Layout
     type: text
     help: How the images will be arranged. For example, "231" means the 1st row has 2 images, the 2nd row has 3 images, and the 3rd row has 1 image. Total of 6 images.
-  captions:
-    label: Image Captions
-    type: structure
-    style: table
-    fields:
-      filename:
-        label: Filename
-        type: text
-      caption:
-        label: Caption
-        type: text
