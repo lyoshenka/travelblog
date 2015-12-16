@@ -35,9 +35,9 @@
         </a>
         <a class="single_links" href="/category/paris">Paris</a> 
         <a class="single_links" href="/category/hawaii">Hawaii</a>
-        <a class="single_links" href="/category/Iceland">Iceland</a> 
-        <a class="single_links" href="/category/Southeast-Asia">Southeast Asia</a>
-        <a class="single_links" href="/category/South-Africa">South Africa</a> 
+        <a class="single_links" href="/category/iceland">Iceland</a> 
+        <a class="single_links" href="/category/southeast-asia">Southeast Asia</a>
+        <a class="single_links" href="/category/south-africa">South Africa</a> 
 
 <!--
         {block:HasPages}

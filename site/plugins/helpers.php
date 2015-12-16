@@ -49,12 +49,13 @@ function getPostHtml($post) {
       <div class="photoset" data-layout="<?php echo getPhotosetLayout($post->images()->count(), $post->imagelayout()) ?>">
         <?php foreach($post->images() as $image): ?>
 	  <?php $dimensions = $image->dimensions()->fitWidth(875) ?>
-            <img src="<?php echo $image->url() ?>" 
-                 width="<?php echo $dimensions->width() ?>" 
-                 height="<?php echo $dimensions->height() ?>" 
-                 alt="<?php echo $image->name() ?>"
-                 data-hires="<?php echo $image->url() ?>"
-            />
+          <img src="<?php echo $image->url() ?>" 
+               width="<?php echo $dimensions->width() ?>" 
+               height="<?php echo $dimensions->height() ?>" 
+               alt="<?php echo $image->caption() != "" ? $image->caption() : $image->name() ?>"
+               title="<?php echo $image->caption() != "" ? $image->caption() : "" ?>"
+               data-hires="<?php echo $image->url() ?>"
+          />
         <?php endforeach ?>
       </div>
     <?php endif ?>

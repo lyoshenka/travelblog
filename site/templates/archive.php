@@ -3,7 +3,7 @@
 <section id="blog">
 
 <header>
-  <h1>Archive<? e(isset($archiveTitle), $archiveTitle) ?>:</h1>
+  <h1>Archive<? e(isset($archiveTitle), $archiveTitle) ?></h1>
 </header>
 
 <?php if($posts->count()): ?>
@@ -25,11 +25,11 @@ foreach($posts as $post): ?>
 
   <article>
     <header>
-      <h1>
+      <h4>
         <a href="<?php echo getPostUrl($post) ?>">
           <?php echo $post->title()->html() ?>
         </a>
-      </h1>
+      </h4>
     </header>
 
     <?php snippet('post-footer', array('post' => $post)) ?>
