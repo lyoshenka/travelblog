@@ -34,6 +34,7 @@ fields:
     type: select
     width: 1/2
     options:
+      '': ''
       none: none
       paris: Paris
       hawaii: Hawaii
