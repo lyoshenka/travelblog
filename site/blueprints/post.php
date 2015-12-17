@@ -5,7 +5,11 @@ pages: false
 files:
   sortable: true
   fields:
-    caption:
+   avgcolor:
+      label: Average Color
+      type: text
+      readonly: true
+   caption:
       label: Caption
       type: textarea
 fields:

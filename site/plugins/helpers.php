@@ -57,6 +57,7 @@ function getPostHtml($post) {
                height="<?php echo $dimensions->height() ?>" 
                alt="<?php echo $image->caption() != "" ? $image->caption() : $image->name() ?>"
                title="<?php echo $image->caption() != "" ? $image->caption() : "" ?>"
+               style="background:<?php echo $image->avgcolor() != '' ? $image->avgcolor() : '#ffffff' ?>;"
           />
         <?php endforeach ?>
       </div>
