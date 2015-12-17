@@ -2,11 +2,11 @@ Title: Search
 
 ----
 
-Noposts: Sorry, the search did not find any Posts.
+Noposts: Sorry, the search did not find any posts.
 
 ----
 
-Resulttitle: Searchresult for
+Resulttitle: Search result for
 
 ----
 

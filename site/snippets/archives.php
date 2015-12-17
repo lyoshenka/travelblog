@@ -7,9 +7,7 @@ if(!isset($class))      $class    = false;
 ?>
 
 <section id="archives" <?php if($class) echo 'class="' . $class . '"' ?>>
-  <header>
-    <h1>Archive options:</h1>
-  </header>
+  <h1>Archive options:</h1>
 
   <?php if($tags) snippet('archive-tags') ?>
 

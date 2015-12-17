@@ -486,14 +486,14 @@ Blogprint Configuration
 
 */
 
-c::set('autopublish.templates', []);
+c::set('autopublish.templates', ['post', 'trip']);
 
 c::set('pagination-posts', 10);
 c::set('pagination-archive', 30);
 c::set('pagination-search', 30);
 
 c::set('markdown.extra', true);
-c::set('home', 'posts');
+//c::set('home', 'trips');
 
 c::set('routes', array(
   array(

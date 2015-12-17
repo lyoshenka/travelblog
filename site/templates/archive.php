@@ -2,9 +2,7 @@
 
 <section id="blog">
 
-<header>
-  <h1>Archive<? e(isset($archiveTitle), $archiveTitle) ?></h1>
-</header>
+<h1>Archive<? e(isset($archiveTitle), $archiveTitle) ?></h1>
 
 <?php if($posts->count()): ?>
 

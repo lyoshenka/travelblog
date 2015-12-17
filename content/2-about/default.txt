@@ -1,5 +1,0 @@
-Title: About
-
-----
-
-Text: This is me!
