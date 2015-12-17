@@ -61,9 +61,9 @@
     <?php echo kirbytext($site->copyright()) ?>
   </footer>
 
-  <!-- jquery-2.1.4.min.js  jquery.photoset-grid.min.js -->
   <script src="/assets/js/jquery-2.1.4.min.js" data-no-instant></script>
   <script src="/assets/js/jquery.photoset-grid.min.js" data-no-instant></script>
+  <script src="/assets/js/jquery.unveil.min.js" data-no-instant></script>
   <script src="/assets/js/instantclick.min.js" data-no-instant></script>
   <script data-no-instant>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -75,9 +75,10 @@
 
     InstantClick.on('change', function() {
       ga('send', 'pageview', location.pathname + location.search);
+      $(".photoset img").unveil(200);
       $('.photoset[data-layout]').photosetGrid({
         gutter: "10px",
-        highresLinks: true,
+        origLinks: true,
       });
     });
       

@@ -16,6 +16,8 @@ function getPhotosetLayout($count, $forcedLayout = null) {
 
 function getPostHtml($post) {
 
+  $transPng = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'; // https://css-tricks.com/snippets/html/base64-encode-of-1x1px-transparent-gif/
+
   ob_start();
 ?>
 
@@ -49,12 +51,12 @@ function getPostHtml($post) {
       <div class="photoset" data-layout="<?php echo getPhotosetLayout($post->images()->count(), $post->imagelayout()) ?>">
         <?php foreach($post->images()->sortBy('sort', 'asc') as $image): ?>
 	  <?php $dimensions = $image->dimensions()->fitWidth(875) ?>
-          <img src="<?php echo $image->url() ?>" 
+          <img src="<?php echo $transPng ?>" 
+               data-src="<?php echo $image->url() ?>"
                width="<?php echo $dimensions->width() ?>" 
                height="<?php echo $dimensions->height() ?>" 
                alt="<?php echo $image->caption() != "" ? $image->caption() : $image->name() ?>"
                title="<?php echo $image->caption() != "" ? $image->caption() : "" ?>"
-               data-hires="<?php echo $image->url() ?>"
           />
         <?php endforeach ?>
       </div>
