@@ -47,7 +47,7 @@ function getPostHtml($post) {
 
     <?php if ($post->hasImages()): ?>
       <div class="photoset" data-layout="<?php echo getPhotosetLayout($post->images()->count(), $post->imagelayout()) ?>">
-        <?php foreach($post->images() as $image): ?>
+        <?php foreach($post->images()->sortBy('sort', 'asc') as $image): ?>
 	  <?php $dimensions = $image->dimensions()->fitWidth(875) ?>
           <img src="<?php echo $image->url() ?>" 
                width="<?php echo $dimensions->width() ?>" 

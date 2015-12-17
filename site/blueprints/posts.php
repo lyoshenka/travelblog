@@ -3,7 +3,10 @@
 title: Posts
 pages:
   template: post
-  num: date
+  num:
+    mode: date
+    field: date
+    format: YmdHi
   sort: flip
 files: false
 fields:
