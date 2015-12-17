@@ -1,1 +1,5 @@
 Caption: One of the old colonial buidings
+
+----
+
+Avgcolor: #90a2b6

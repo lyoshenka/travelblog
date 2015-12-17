@@ -1,1 +1,5 @@
 Caption: Giant flying squirrel!
+
+----
+
+Avgcolor: #141b19

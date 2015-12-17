@@ -1,1 +1,5 @@
 Caption: Breakfast terrace at the Blue Haven guesthouse in Kandy
+
+----
+
+Avgcolor: #504741

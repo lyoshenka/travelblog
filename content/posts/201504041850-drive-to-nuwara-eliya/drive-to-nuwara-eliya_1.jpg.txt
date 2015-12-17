@@ -1,2 +1,7 @@
 Caption: Our driver Gayan
 
+
+
+----
+
+Avgcolor: #6a735a

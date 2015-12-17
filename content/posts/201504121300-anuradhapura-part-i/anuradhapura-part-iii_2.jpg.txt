@@ -1,1 +1,5 @@
 Caption: Elephant pond
+
+----
+
+Avgcolor: #313d36

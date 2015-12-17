@@ -1,2 +1,7 @@
 Caption: Stopped for some Jackfruit
 
+
+
+----
+
+Avgcolor: #342b22

@@ -1,1 +1,5 @@
 Caption: This is how the nurses dispense medicines!
+
+----
+
+Avgcolor: #42382f

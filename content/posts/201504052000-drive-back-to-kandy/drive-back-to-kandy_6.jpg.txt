@@ -1,1 +1,5 @@
 Caption: St. Clairs Falls
+
+----
+
+Avgcolor: #626a3e

@@ -1,1 +1,5 @@
 Caption: Breakfast Sunday morning
+
+----
+
+Avgcolor: #443f2b

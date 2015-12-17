@@ -1,1 +1,5 @@
 Caption: Passion Fruit Mousse!
+
+----
+
+Avgcolor: #6e502f

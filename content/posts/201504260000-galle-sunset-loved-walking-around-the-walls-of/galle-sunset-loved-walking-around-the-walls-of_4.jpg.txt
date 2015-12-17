@@ -1,1 +1,5 @@
 Caption: Grin teasing me about standing on the edge of a huge vertical drop off!
+
+----
+
+Avgcolor: #393734

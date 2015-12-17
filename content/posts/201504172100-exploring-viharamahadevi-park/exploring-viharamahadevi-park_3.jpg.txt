@@ -1,1 +1,5 @@
 Caption: The ants swarm if you tap their nest (but don't bite)
+
+----
+
+Avgcolor: #596741

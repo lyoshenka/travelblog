@@ -1,1 +1,5 @@
 Caption: Scenic hike up to the caves
+
+----
+
+Avgcolor: #4f544c

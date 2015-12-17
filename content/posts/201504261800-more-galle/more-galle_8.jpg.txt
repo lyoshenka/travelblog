@@ -1,1 +1,5 @@
 Caption: That's how lace is made?!
+
+----
+
+Avgcolor: #4d413b

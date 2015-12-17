@@ -1,1 +1,5 @@
 Caption: Friezes of "happy dwarfs" remind me of dad
+
+----
+
+Avgcolor: #6e5a41

@@ -1,1 +1,5 @@
 Caption: Jetavanarama Dagoba
+
+----
+
+Avgcolor: #383e32

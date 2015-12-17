@@ -1,1 +1,5 @@
 Caption: Guest Inn Muntri
+
+----
+
+Avgcolor: #978c80

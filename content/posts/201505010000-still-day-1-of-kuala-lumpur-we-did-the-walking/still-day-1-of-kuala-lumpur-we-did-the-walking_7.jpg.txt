@@ -1,1 +1,5 @@
 Caption: Masjid jamek
+
+----
+
+Avgcolor: #5b6e8a

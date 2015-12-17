@@ -1,1 +1,5 @@
 Caption: The tricked out trishaws
+
+----
+
+Avgcolor: #6c5b56

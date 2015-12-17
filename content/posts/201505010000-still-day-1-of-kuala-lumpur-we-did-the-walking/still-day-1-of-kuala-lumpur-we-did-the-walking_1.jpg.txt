@@ -1,1 +1,5 @@
 Caption: These noodles with special sause were so good we quickly ordered seconds!
+
+----
+
+Avgcolor: #c9cdc6

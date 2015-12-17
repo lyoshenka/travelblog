@@ -1,1 +1,5 @@
 Caption: At the entrance of one of the 5 caves
+
+----
+
+Avgcolor: #3d362e

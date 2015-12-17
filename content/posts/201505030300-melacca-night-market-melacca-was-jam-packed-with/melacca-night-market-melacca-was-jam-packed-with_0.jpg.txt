@@ -1,1 +1,5 @@
 Caption: Durian!
+
+----
+
+Avgcolor: #302b36

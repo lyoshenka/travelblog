@@ -1,1 +1,5 @@
 Caption: Old Galle Buck Lighthouse
+
+----
+
+Avgcolor: #5c4b4a

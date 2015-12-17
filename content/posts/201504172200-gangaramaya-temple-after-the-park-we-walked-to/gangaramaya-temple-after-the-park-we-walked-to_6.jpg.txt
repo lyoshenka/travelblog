@@ -1,1 +1,5 @@
 Caption: Of course there's a bodhi tree! Mossy and well watered by devotees
+
+----
+
+Avgcolor: #493a2a

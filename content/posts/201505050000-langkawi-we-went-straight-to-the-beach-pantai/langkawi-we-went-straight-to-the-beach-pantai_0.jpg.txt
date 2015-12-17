@@ -1,1 +1,5 @@
 Caption: Last view of Singapore
+
+----
+
+Avgcolor: #638cb4

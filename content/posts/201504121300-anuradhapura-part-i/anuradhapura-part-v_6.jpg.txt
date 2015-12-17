@@ -1,1 +1,5 @@
 Caption: Another Monitor
+
+----
+
+Avgcolor: #a4a09a

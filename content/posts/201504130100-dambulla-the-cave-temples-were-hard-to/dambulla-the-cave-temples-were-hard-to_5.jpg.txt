@@ -1,1 +1,5 @@
 Caption: Gaudy modern entrace
+
+----
+
+Avgcolor: #3d372f

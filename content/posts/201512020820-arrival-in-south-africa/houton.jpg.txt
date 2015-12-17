@@ -1,1 +1,5 @@
 Caption: view from Marina and Ivan's apartment
+
+----
+
+Avgcolor: #84755c

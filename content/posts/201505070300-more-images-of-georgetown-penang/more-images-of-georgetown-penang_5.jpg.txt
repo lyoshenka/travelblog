@@ -1,1 +1,5 @@
 Caption: A latte! Oh how I've missed delicious coffee
+
+----
+
+Avgcolor: #7d695c

@@ -1,1 +1,5 @@
 Caption: Sigiriya and fishingboat in the background
+
+----
+
+Avgcolor: #cfd0d3

@@ -1,1 +1,5 @@
 Caption: Fire eating breathing and walking
+
+----
+
+Avgcolor: #7d665b

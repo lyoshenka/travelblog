@@ -1,1 +1,5 @@
 Caption: Mayura Natuma (Peacock Dance)
+
+----
+
+Avgcolor: #43114b

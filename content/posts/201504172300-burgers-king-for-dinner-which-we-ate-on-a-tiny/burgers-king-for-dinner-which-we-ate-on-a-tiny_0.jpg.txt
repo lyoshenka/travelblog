@@ -1,1 +1,5 @@
 Caption: One last pic from Gangaramaya - one area was full of such posters
+
+----
+
+Avgcolor: #a9aead

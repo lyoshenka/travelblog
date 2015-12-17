@@ -1,2 +1,7 @@
 Caption: Giant bamboo next to the hermit's hideout
 
+
+
+----
+
+Avgcolor: #36413a

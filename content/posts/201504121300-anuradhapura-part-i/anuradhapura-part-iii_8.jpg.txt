@@ -1,1 +1,5 @@
 Caption: Moonstone
+
+----
+
+Avgcolor: #c49d74

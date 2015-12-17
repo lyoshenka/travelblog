@@ -1,1 +1,5 @@
 Caption: Little temples are everywhere
+
+----
+
+Avgcolor: #4f4840

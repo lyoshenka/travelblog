@@ -1,1 +1,5 @@
 Caption: Thuparamaya Stupa
+
+----
+
+Avgcolor: #4c545f

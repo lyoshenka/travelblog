@@ -1,1 +1,5 @@
 Caption: Sri mahamariamman temple
+
+----
+
+Avgcolor: #8e7a67

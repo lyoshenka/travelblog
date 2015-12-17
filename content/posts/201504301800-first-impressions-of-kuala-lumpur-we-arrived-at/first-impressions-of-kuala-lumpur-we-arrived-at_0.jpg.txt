@@ -1,1 +1,5 @@
 Caption: Even the view from the train is nice
+
+----
+
+Avgcolor: #353330

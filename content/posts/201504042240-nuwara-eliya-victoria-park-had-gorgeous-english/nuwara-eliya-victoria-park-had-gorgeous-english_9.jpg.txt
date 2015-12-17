@@ -1,2 +1,7 @@
 Caption: Our room with Blue Haven
 
+
+
+----
+
+Avgcolor: #a89c8f

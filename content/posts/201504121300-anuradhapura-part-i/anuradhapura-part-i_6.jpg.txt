@@ -1,1 +1,5 @@
 Caption: Ruvanvelisaya Dagoba - guarded by hundreds of elephant statues
+
+----
+
+Avgcolor: #58687c

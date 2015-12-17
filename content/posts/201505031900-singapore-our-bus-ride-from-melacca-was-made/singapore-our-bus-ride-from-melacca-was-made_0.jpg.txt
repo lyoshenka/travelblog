@@ -1,1 +1,5 @@
 Caption: Lor 9 Beef Kway Teow
+
+----
+
+Avgcolor: #7f5e6b

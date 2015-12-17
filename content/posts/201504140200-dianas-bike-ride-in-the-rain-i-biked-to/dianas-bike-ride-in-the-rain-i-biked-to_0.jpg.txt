@@ -1,1 +1,5 @@
 Caption: Some other off-the-map lake by a dirt road to "paradise spa"
+
+----
+
+Avgcolor: #ced4d8

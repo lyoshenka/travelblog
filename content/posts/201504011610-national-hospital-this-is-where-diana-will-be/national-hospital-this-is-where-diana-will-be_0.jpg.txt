@@ -1,1 +1,5 @@
 Caption: Red marker is the hospital. Blue dot is our apartment.
+
+----
+
+Avgcolor: #e7e4d9

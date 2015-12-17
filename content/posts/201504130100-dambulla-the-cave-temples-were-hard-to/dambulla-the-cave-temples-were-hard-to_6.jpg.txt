@@ -1,1 +1,5 @@
 Caption: Star jump for Marina
+
+----
+
+Avgcolor: #d9dbd5

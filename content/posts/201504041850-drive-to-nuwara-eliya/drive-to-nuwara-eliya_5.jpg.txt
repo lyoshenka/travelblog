@@ -1,2 +1,7 @@
 Caption: At Glenloch tea factory, we were given a tour and some free tea
 
+
+
+----
+
+Avgcolor: #4a3224

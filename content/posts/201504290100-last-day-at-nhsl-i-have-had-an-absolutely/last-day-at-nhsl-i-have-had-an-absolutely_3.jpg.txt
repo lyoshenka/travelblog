@@ -1,1 +1,5 @@
 Caption: And feeding all her guests cake!
+
+----
+
+Avgcolor: #b4a896

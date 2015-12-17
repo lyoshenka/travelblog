@@ -1,1 +1,5 @@
 Caption: Delicious Vanilla Mille Crepe Cake!
+
+----
+
+Avgcolor: #b79776

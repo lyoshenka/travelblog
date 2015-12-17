@@ -1,2 +1,7 @@
 Caption: View from the car as we arrived in Nuwara Eliya
 
+
+
+----
+
+Avgcolor: #212822

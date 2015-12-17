@@ -1,1 +1,5 @@
 Caption: In each little village we drive through there are many tiny open face shops
+
+----
+
+Avgcolor: #857161

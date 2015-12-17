@@ -1,1 +1,5 @@
 Caption: Ivory combs
+
+----
+
+Avgcolor: #cec3b5

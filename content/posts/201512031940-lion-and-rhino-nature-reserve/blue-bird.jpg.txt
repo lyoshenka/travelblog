@@ -3,3 +3,7 @@ Caption:
 ----
 
 Sort: 5
+
+----
+
+Avgcolor: #baac84

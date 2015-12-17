@@ -1,1 +1,5 @@
 Caption: Milk & Honey
+
+----
+
+Avgcolor: #e3d6c3

@@ -1,1 +1,5 @@
 Caption: Many scenic views from the train
+
+----
+
+Avgcolor: #2c353b

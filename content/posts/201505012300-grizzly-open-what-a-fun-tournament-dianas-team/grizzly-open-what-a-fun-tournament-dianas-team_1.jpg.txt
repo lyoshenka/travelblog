@@ -1,1 +1,5 @@
 Caption: Arabian dinner afterwards
+
+----
+
+Avgcolor: #1a1716

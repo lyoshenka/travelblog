@@ -1,1 +1,5 @@
 Caption: Lorong Baru hawker stands
+
+----
+
+Avgcolor: #5f5d5e

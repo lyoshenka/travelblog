@@ -1,1 +1,5 @@
 Caption: The birthday girl being surprised!
+
+----
+
+Avgcolor: #3d3a35

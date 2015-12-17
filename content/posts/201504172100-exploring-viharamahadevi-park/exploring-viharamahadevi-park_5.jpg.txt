@@ -1,1 +1,5 @@
 Caption: Many "flying foxes" sleeping at the top
+
+----
+
+Avgcolor: #343e2b

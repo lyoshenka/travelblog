@@ -1,1 +1,5 @@
 Caption: Outside Frangipani hotel
+
+----
+
+Avgcolor: #454d3e

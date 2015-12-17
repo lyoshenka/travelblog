@@ -1,1 +1,5 @@
 Caption: Dutch Period Museum
+
+----
+
+Avgcolor: #525740

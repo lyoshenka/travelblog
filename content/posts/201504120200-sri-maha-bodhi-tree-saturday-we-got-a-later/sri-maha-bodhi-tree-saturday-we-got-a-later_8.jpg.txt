@@ -1,1 +1,5 @@
 Caption: Hide from a small downpour as we were leaving
+
+----
+
+Avgcolor: #e6e0d7

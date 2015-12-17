@@ -1,1 +1,5 @@
 Caption: New year celebrations starting!
+
+----
+
+Avgcolor: #43453b

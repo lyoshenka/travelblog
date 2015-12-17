@@ -1,2 +1,7 @@
 Caption: See the Toque monkeys hiding in the leaves?
 
+
+
+----
+
+Avgcolor: #253237

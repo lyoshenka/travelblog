@@ -1,1 +1,5 @@
 Caption: By the time we made to our accommodations we were pretty wiped
+
+----
+
+Avgcolor: #383a32

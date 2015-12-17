@@ -1,1 +1,5 @@
 Caption: The trees are huge!
+
+----
+
+Avgcolor: #51584f

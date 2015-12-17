@@ -1,1 +1,5 @@
 Caption: Dewatagaha mosque
+
+----
+
+Avgcolor: #383531

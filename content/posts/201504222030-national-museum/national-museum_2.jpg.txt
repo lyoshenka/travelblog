@@ -1,1 +1,5 @@
 Caption: Love this statue and others of the Hindu god Ganesa.
+
+----
+
+Avgcolor: #c7bfb4

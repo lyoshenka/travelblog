@@ -1,1 +1,5 @@
 Caption: My female ward 47b is on the 3rd floor (the male ward 49 is in another building)
+
+----
+
+Avgcolor: #8e847b

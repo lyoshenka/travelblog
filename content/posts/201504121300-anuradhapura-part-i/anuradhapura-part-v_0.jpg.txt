@@ -1,1 +1,5 @@
 Caption: Isurumuniya Vihara
+
+----
+
+Avgcolor: #98b5d6

@@ -1,1 +1,5 @@
 Caption: Samboghi Chaitiya
+
+----
+
+Avgcolor: #8ba6cc

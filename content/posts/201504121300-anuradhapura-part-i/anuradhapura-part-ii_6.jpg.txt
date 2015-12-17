@@ -1,1 +1,5 @@
 Caption: Abhayagiri Dagoba
+
+----
+
+Avgcolor: #9bb6d5

@@ -1,1 +1,5 @@
 Caption: Breakfast at a cafe in Penang
+
+----
+
+Avgcolor: #756e5e

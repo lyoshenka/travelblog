@@ -1,1 +1,5 @@
 Caption: Central area of the temple very crowded during puja with people carrying flowers and babies
+
+----
+
+Avgcolor: #3c372f

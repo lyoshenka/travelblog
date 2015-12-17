@@ -1,1 +1,5 @@
 Caption: Sze ya temple
+
+----
+
+Avgcolor: #4e2f24

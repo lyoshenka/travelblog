@@ -1,1 +1,5 @@
 Caption: Baker's Fall
+
+----
+
+Avgcolor: #2f3037

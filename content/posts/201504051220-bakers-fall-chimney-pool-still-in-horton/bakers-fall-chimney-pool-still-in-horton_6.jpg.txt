@@ -1,1 +1,5 @@
 Caption: Chimney Pool
+
+----
+
+Avgcolor: #52523e

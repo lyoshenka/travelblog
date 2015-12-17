@@ -1,1 +1,5 @@
 Caption: Gayan was surprised to hear we wanted local rice and curry for lunch (instead of something fancier) so we promptly stopped at the next little joint
+
+----
+
+Avgcolor: #4b4841
