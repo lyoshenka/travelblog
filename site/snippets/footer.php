@@ -75,7 +75,7 @@
 
     InstantClick.on('change', function() {
       ga('send', 'pageview', location.pathname + location.search);
-      $(".photoset img").unveil(200);
+      $(".photoset img").unveil(500);
       $('.photoset[data-layout]').photosetGrid({
         gutter: "10px",
         origLinks: true,
