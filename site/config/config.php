@@ -478,15 +478,14 @@ c::set('upload.allowed', array(
 
 
 
-/*
 
----------------------------------------
-Blogprint Configuration
----------------------------------------
-
-*/
+c::set('thumbs.driver', 'im');
 
 c::set('autopublish.templates', ['post', 'trip']);
+
+c::set('autothumb.enabled', true);
+c::set('autothumb.width', 875);
+c::set('autothumb.quality', 55);
 
 c::set('pagination-posts', 10);
 c::set('pagination-archive', 30);

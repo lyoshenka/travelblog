@@ -1,7 +1,7 @@
 <?php
 
 kirby()->hook('panel.file.upload', 'avgimgcolorhook');
-//kirby()->hook('panel.file.update', 'avgimgcolorhook');
+kirby()->hook('panel.file.replace', 'avgimgcolorhook');
 
 function rgb2hex($r, $g=null, $b=null)
 {

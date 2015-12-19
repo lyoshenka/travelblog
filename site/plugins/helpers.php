@@ -50,9 +50,10 @@ function getPostHtml($post) {
     <?php if ($post->hasImages()): ?>
       <div class="photoset" data-layout="<?php echo getPhotosetLayout($post->images()->count(), $post->imagelayout()) ?>">
         <?php foreach($post->images()->sortBy('sort', 'asc') as $image): ?>
-	  <?php $dimensions = $image->dimensions()->fitWidth(875) ?>
+	  <?php $dimensions = clone $image->dimensions(); $dimensions->fitWidth(c::get('autothumb.width')); ?>
           <img src="<?php echo $transPng ?>" 
-               data-src="<?php echo $image->url() ?>"
+               data-src="<?php echo thumb($image, ['width' => $dimensions->width(), 'height' => $dimensions->height(), 'quality' => c::get('autothumb.quality')])->url() ?>"
+               data-highres="<?php echo $image->url() ?>"
                width="<?php echo $dimensions->width() ?>" 
                height="<?php echo $dimensions->height() ?>" 
                alt="<?php echo $image->caption() != "" ? $image->caption() : $image->name() ?>"

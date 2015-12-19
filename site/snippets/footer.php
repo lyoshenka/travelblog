@@ -78,7 +78,8 @@
       $(".photoset img").unveil(500);
       $('.photoset[data-layout]').photosetGrid({
         gutter: "10px",
-        origLinks: true,
+        highresLinks: true,
+        lowresWidth: 875,
       });
     });
       
