@@ -1,10 +1,10 @@
 <?php snippet( 'header') ?>
 
-<ol id="posts">
+<div id="posts">
   <?php foreach($posts as $post): ?>
-    <?php echo getPostHtml($post) ?>
+    <?php snippet('post', ['post' => $post]) ?>
   <?php endforeach ?>
-</ol>
+</div>
 
 <?php snippet('nav-pagination') ?>
 

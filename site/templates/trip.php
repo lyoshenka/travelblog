@@ -3,11 +3,11 @@
 <h1><?php echo $page->title() ?></h1>
 
 <?php if($posts->count()): ?>
-  <ol id="posts">
+  <div id="posts">
     <?php foreach($posts as $post): ?>
-      <?php echo getPostHtml($post) ?>
+      <?php snippet('post', ['post' => $post]) ?>
     <?php endforeach ?>
-  </ol>
+  </div>
 <?php else: ?>
   Nothing here yet
 <?php endif ?>

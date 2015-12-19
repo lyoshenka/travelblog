@@ -6,10 +6,10 @@
 
 @contentWidth = 875px;
 @captionSize = 16px;
-@captionWidth = 875px;
 @dateSize = 15px;
 @titleSize = 25px;
 @headerSize = 72px;
+@footerSize = 13px;
 
 @bgColor = #fff;
 @titleColor = #c2464c;
@@ -28,21 +28,14 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: @contentWidth+150px) {
+@media screen and (min-width: @contentWidth+50px) {
   html {
     margin-left: calc(~"100vw - 100%");
     margin-right: 0;
   }
 }
 
-body,div,h1,h2,h3,h4,h5,h6,p,blockquote,pre,code,dl,dt,dd,ul,ol,li,th,td,form,fieldset,legend,input,textarea{ margin:0;padding:0; }
 html { font-size: @captionSize }
-table { border-collapse: collapse; border-spacing: 0; }
-fieldset, img {  border: 0 }
-caption,cite,code,dfn,th,var { font-style: normal; font-weight: normal; }
-//h1,h2,h3,h4,h5,h6 { font-size: 12px; font-weight: normal; padding: 5px 0; }
-abbr,acronym { border: 0 }
-
 
 body {
   background: @bgColor;
@@ -51,12 +44,13 @@ body {
   margin: 0 0 0 0;
 }
 
-h1,
-h2,
-h3 {  font-family: @headerFont }
+h1, h2, h3 {  
+  font-family: @headerFont;
+}
 
-pre,
-code {  font-family: @monospaceFont }
+pre, code {
+  font-family: @monospaceFont;
+ }
 
 a:link,
 a:visited {
@@ -67,14 +61,10 @@ a:visited {
 a:hover,
 a:active {  color: @linkHoverColor }
 
-small {  font-size: 80% }
-
 header {
   color: @minorTextColor;
   position: relative;
-  margin: -49 auto;
-  padding-top: 40px;
-  width: @contentWidth;
+  margin-bottom: 30px;
 
   h1 {
     color: @titleColor;
@@ -83,7 +73,6 @@ header {
     font-size: @headerSize;
     line-height: 90%;
     margin-bottom: 30px;
-    margin-top: -30px;
   
     a:link, a:visited {
       color: @titleColor;
@@ -134,58 +123,39 @@ header {
 
 #container {
   margin: 30px auto;
-  padding-top: 5px;
-  width: @contentWidth;
-}
-
-#container .box img {  max-width: 100% }
-
-.logo {
-  border: 0;
-  margin-bottom: 5px;
+  padding: 0 10px;
   max-width: @contentWidth;
-}
-
-.single {
-  width: @contentWidth;
-  margin-bottom: 10px;
-}
-
-.top_padding {
-  width: @contentWidth;
-  margin-bottom: 20px;
 }
 
 #posts {
   background-color: @bgColor;
   border-top: 1px solid @lineColor;
   border-bottom: 1px solid @lineColor;
-  margin: 0px;
   padding-top: 20px;
 /*  text-align: center; */
   font-size: @captionSize;
 }
 
-#posts .post {
-  list-style: none;
-  padding-bottom: 26px;
-  max-width: @contentWidth;
-  margin-bottom: 40px;
-  clear: both;
+.post {
+  margin-bottom: 60px;
+
+  .date {
+    font-size: @dateSize;
+  }
 }
 
-#posts .content {
-  color: @textColor;
-  padding: 0;
-  margin-left: 0px;
-  margin-top: 0px;
+footer {
+  text-align: center;
+  font-size: @footerSize;
+  margin-top: 30px;
 }
 
-#footer {
-  margin: 0 auto;
-  max-width: @contentWidth;
-  padding-bottom: 30px;
+.cf:after {
+  content:"";
+  display:table;
+  clear:both;
 }
+
 
 #pagination {
   font-size: @captionSize;
@@ -213,310 +183,29 @@ header {
 
 
 
-#credits {
-  clear: both;
-  display: inline;
-  text-align: center;
-  font-size: 12px;
-  color: @minorTextColor;
-  margin: 0;
-  padding: 1.5em 0;
+p {
+  margin-bottom: 25px;
 }
 
-#footer a:hover,
-#footer a:active {  text-decoration: none }
-
-p {  margin-bottom: 25px }
-
-form .submit {
-  height: 0;
-  overflow: hidden;
-  display: block;
-}
-
-.meta {
-  width: @contentWidth;
-  font-size: 14px;
-  text-align: left;
-  line-height: 10px;
-}
-
-.meta h2 {
-  font-size: 14px;
-  margin-bottom: 5px;
-  border-bottom: 1px solid @lineColor;
-}
-
-.meta h2 a {
-  text-decoration: none;
-  display: block;
-  padding: 0px 0px;
-}
-
-.meta h2 a:hover {  background: none }
-
-.meta p {
-  color: @minorTextColor;
-
-  font-style: italic;
-
-  margin: 0 0 0 1em;
-
-  text-indent: -0.75em;
-
-  text-transform: lowercase;
-
-}
-
-
-
-p.meta {
-
-  color: @minorTextColor;
-
-  font-style: italic;
-
-  margin: 0;
-
-  width: 150px;
-
-  text-indent: -0.75em;
-
-  text-transform: lowercase;
-
-}
-
-
-
-.meta a {
-
-  font-style: normal;
-
-  white-space: nowrap;
-
-}
-
-
-
-.meta .plays {
-
-  font-weight: bold;
-
-  font-style: normal;
-
-}
-
-
-
-h3 {
-
+h2 {
   font-size: @titleSize;
-
-  line-height: autopx;
-
-  padding-bottom: 25px;
-
-  font-weight: bold;
-
+//  padding-bottom: 15px;
+  margin-top: 0;
 }
-
-
-
-.title_gap {  margin-top: -6px }
-
-
-
-h4 {
-
-  font-size: @dateSize;
-
-  line-height: autopx;
-
-  margin-bottom: 0px;
-
-  font-family: @dateFont;
-
-}
-
-
 
 .content a {  border-bottom: 1px solid @lineColor }
-
-
-
 .content a:hover {  border-bottom-width: 1px }
-
-
-
 .content .photo a {  border: none !important }
 
-
-
 .content ul,
-
 .content ol {
-
   margin: 20px;
-
   list-style-position: inside;
-
 }
-
-
 
 .content ul li {
-
   list-style: disc;
-
   list-style-position: inside;
-
-}
-
-
-
-blockquote {
-
-  margin: 0 0px 20px;
-
-  border-left: 1px solid @lineColor;
-
-  padding-left: 20px;
-
-}
-
-
-
-blockquote i,
-
-blockquote em,
-
-blockquote [lang="ja"] {  font-style: normal }
-
-
-
-pre,
-
-code {
-
-  font-size: 10px;
-
-  line-height: 12px;
-
-}
-
-
-
-pre {
-
-  background: #e1e1e1;
-
-  margin: 15px;
-
-  padding: 10px;
-
-  overflow-x: auto;
-
-}
-
-
-
-pre code {  display: block }
-
-
-
-pre i,
-
-code i {
-
-  font-style: normal;
-
-  color: @minorTextColor;
-
-}
-
-
-
-ins {
-
-  text-decoration: none;
-
-  font-style: italic;
-
-}
-
-
-
-blockquote ins,
-
-em ins,
-
-ins em {  font-style: normal }
-
-
-
-abbr,
-acronym,
-.caps {
-  font-size: 12px;
-  letter-spacing: 0.1em;
-  word-spacing: 0.1em;
-}
-
-
-
-abbr,
-acronym {  text-transform: uppercase }
-
-
-
-.caps {  text-transform: uppercase }
-
-
-
-.text {
-  width: @captionWidth;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-.caption {
-  width: @captionWidth;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-.nocaption {
-
-  width: @captionWidth;
-
-  margin-bottom: -40px;
-
-  margin-left: auto;
-
-  margin-right: auto;
-
-
-}
-
-
-
-.vidcaption {
-
-  width: @captionWidth;
-
-  margin-top: 120px;
-
-  margin-left: auto;
-
-  margin-right: auto;
-
-
 }
 
 
@@ -526,176 +215,23 @@ acronym {  text-transform: uppercase }
 .post embed {
   max-width: 100%;
   nowhitespace: afterproperty;
-  width: @contentWidth;
+//  width: @contentWidth;
   /* width - for stretching small images */
+  width: 100%;
+  height: auto;
 }
-
-
-
-.link-post h3 {
-  padding: 0;
-  margin-bottom: 18px;
-}
-
-
-
-.photo-post .photo {
-  margin-bottom: 19px;
-  margin-top: 20px;
-}
-
-
-
-.video-post .video {
-
-  margin-bottom: 0px;
-
-  margin-top: 20px;
-
-}
-
-
-
-.quote-post .quote {
-
-  font-family: @bodyFont;
-
-  font-style: italic;
-
-}
-
-
-
-.quote-post .source,
-
-.cite {
-
-  margin: 0 0 10px 600px;
-
-  text-align: right;
-
-}
-
-
-
-.quote-post .source a:first-child,
-
-.cite {  letter-spacing: 0 }
-
-
-
-.short-quote .quote,
-
-.medium-quote .quote,
-
-.long-quote .quote {
-
-  font-size: @titleSize;
-
-  line-height: autopx;
-
-  margin: 0px 0px 20px 0px;
-
-}
-
-
-
-.audio-post .audio {
-
-  display: block;
-
-  width: @contentWidth;
-
-  margin-bottom: 20px;
-
-  padding: 0px;
-
-  -moz-border-radius: 5px;
-
-  border-radius: 5px;
-
-}
-
-
-
-.day .month {  text-transform: uppercase }
-
-
-
-/* {block:DayPage}.day {font-weight:bold;}{/block:DayPage} */
-
-
-
-.content.text-post img {  max-width: 100% }
-
-
-
-.multi {
-
-  margin-bottom: 30px;
-
-  margin-right: 15px;
-
-  margin-right: 10px;
-
-  margin-left: 10px;
-
-
-}
-
-
-
-.video embed,
-
-.video object,
-
-.video iframe {
-
-  width: @contentWidth;
-
-  height: 500px;
-
-  margin-bottom: -100px;
-
-}
-
-
-
-.wide_audio iframe {  width: @contentWidth }
-
 
 
 .tags {
   margin: 20px 0 20px 0;
   color: @minorTextColor;
 }
-
-
 .tags a {
-
   margin-left: 15px;
-
   color: @minorTextColor;
-
   border-bottom: 1px solid @lineColor;
-
 }
-
-
-
 .tags a:hover {  color: @linkHoverColor }
-
-
-
-/* {block:PermalinkPage}
-      p.answer_form_container { width: 512px; }
-      ol.notes { width: @contentWidth; list-style-type: none; margin:20px auto; padding: 0; }
-        ol.notes li.note { background: @notesBackgroundColor; margin: 0 0 0px 0; padding: 0 4px; }
-        ol.notes img.avatar { display: none; }
-        ol.notes blockquote { margin: 0; }
-          ol.notes blockquote a { text-decoration: none; }
-    {/block:PermalinkPage}
-================================================== */
 
 
 a {  outline: none }

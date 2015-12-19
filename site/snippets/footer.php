@@ -1,65 +1,11 @@
 
 
-
-    <div style="clear: both"></div>
-
-<?php /*
-
-    {block:PermalinkPage}
-      <center>
-        {PostNotes}
-      </center>
-    {block:PermalinkPage}
-
-    <div style="clear: both;"></div>
-
-    <div id="footer">
-      <div id="pagination">
-        {block:Pagination} {block:NextPage}
-
-        <p class="back"><a href="{NextPage}">{lang:Next} →</a>
-        </p>
-        {/block:NextPage} {block:PreviousPage}
-
-        <p class="forward"><a href="{PreviousPage}">← {lang:Prev}</a>
-        </p>
-        {/block:PreviousPage} {/block:Pagination} {block:PermalinkPagination} {block:PreviousPost}
-
-        <p class="back"><a href="{PreviousPost}">{lang:Next} →</a>
-        </p>
-        {/block:PreviousPost} {block:NextPost}
-
-        <p class="forward"><a href="{NextPost}">← {lang:Prev}</a>
-        </p>
-        {/block:NextPost} {/block:PermalinkPagination} {block:DayPagination} {block:PreviousDayPage}
-
-        <p class="back"><a href="{PreviousDayPage}">{lang:Next} →</a>
-        </p>
-        {/block:PreviousDayPage} {block:NextDayPage}
-
-        <p class="forward"><a href="{NextDayPage}">← {lang:Prev}</a>
-        </p>
-        {/block:NextDayPage} {/block:DayPagination}
-      </div>
-      
-      <br><br>
-*/ ?>
-
-      <center><small><a href="/feed">RSS</a></small></center>
-
-    </div> <!-- .footer -->
+    <footer>
+      <a href="/feed">RSS</a>
+    </footer>
 
   </div> <!-- .container -->
 
-
-
-
-
-
-
-  <footer>
-    <?php echo kirbytext($site->copyright()) ?>
-  </footer>
 
   <script src="/assets/js/jquery-2.1.4.min.js" data-no-instant></script>
   <script src="/assets/js/jquery.photoset-grid.min.js" data-no-instant></script>
@@ -76,11 +22,15 @@
     InstantClick.on('change', function() {
       ga('send', 'pageview', location.pathname + location.search);
       $(".photoset img").unveil(500);
-      $('.photoset[data-layout]').photosetGrid({
-        gutter: "10px",
-        highresLinks: true,
-        lowresWidth: 875,
-      });
+
+      var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+      if (width > 700) {
+        $('.photoset[data-layout]').photosetGrid({
+          gutter: "10px",
+          highresLinks: true,
+          lowresWidth: 875,
+        });
+      }
     });
       
     InstantClick.init('mousedown');
