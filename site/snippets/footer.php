@@ -1,7 +1,7 @@
 
 
     <footer>
-      <a href="/feed">RSS</a>
+      <!-- <a href="/feed">RSS</a> -->
     </footer>
 
   </div> <!-- .container -->
@@ -11,6 +11,7 @@
   <script src="/assets/js/jquery.photoset-grid.min.js" data-no-instant></script>
   <script src="/assets/js/jquery.unveil.min.js" data-no-instant></script>
   <script src="/assets/js/instantclick.min.js" data-no-instant></script>
+  <script src="/assets/js/script.js" data-no-instant></script>
   <script data-no-instant>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

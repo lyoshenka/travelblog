@@ -6,15 +6,14 @@
 
 /* http://www.pearsonified.com/typography/ */
 @contentWidth = 87.5rem;
-@textSize = 1.8rem;
-@textLineHeight = 2.9rem;
-@captionSize = 1.6rem;
-@dateSize = 1.6rem;
-@postTitleSize = 2.9rem;
-@tripTitleSize = 4.7rem;
 @siteTitleSize = 7.2rem;
+@tripTitleSize = 4.7rem;
+@postTitleSize = 2.9rem;
 @siteDescSize = 2.3rem;
-@footerSize = 1.3rem;
+@textSize = 1.8rem;
+@footerSize = 1.4rem;
+@textLineHeight = 2.9rem;
+@dateSize = 1.6rem;
 
 @bgColor = #fff;
 @titleColor = #c2464c;
@@ -75,7 +74,7 @@ header {
     font-weight: bold;
     font-size: @siteTitleSize;
     line-height: 90%;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
   
     a:link, a:visited {
       color: @titleColor;
@@ -91,8 +90,7 @@ header {
     color: @minorTextColor;
     font-family: @bodyFont;
     font-size: @siteDescSize;
-    margin-bottom: 20px;
-    margin-top: -5px;
+    margin-bottom: 2rem;
   }
 }
 
@@ -103,28 +101,30 @@ nav {
 
   a {
     font-family: @bodyFont;
-    margin-right: 20px;
+    margin-right: 2rem;
   
     &:last-child {
-      margin-right: 0px 
+      margin-right: 0; 
     }
   }
 }
 
 
 #pagination {  /* also a <nav> */
-  min-width: 150px;
-  margin: 40px 0;
+//  min-width: 15rem;
+  margin: 4rem 0;
   white-space: nowrap;
  
   ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
   }  
 
   li {
     display: inline-block;
-    margin: 0 3px;
-    padding: 1px;
+    margin: 0 0.3rem;
+    padding: 0 1px;
     
     &.active {
       font-weight: bold;
@@ -139,8 +139,8 @@ nav {
 
 
 #container {
-  margin: 30px auto;
-  padding: 0 10px;
+  margin: 3rem auto;
+  padding: 0 1rem;
   max-width: @contentWidth;
 }
 
@@ -148,13 +148,13 @@ nav {
   background-color: @bgColor;
   border-top: 1px solid @lineColor;
   border-bottom: 1px solid @lineColor;
-  padding-top: 20px;
+  padding-top: 2rem;
 /*  text-align: center; */
   line-height: @textLineHeight;
 }
 
 article {
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
 
   .date {
     font-size: @dateSize;
@@ -171,7 +171,7 @@ article {
 
 h2 {
   font-size: @postTitleSize;
-//  padding-bottom: 15px;
+//  padding-bottom: 1.5rem;
   margin-top: 0;
 }
 
@@ -180,7 +180,7 @@ h2 {
 footer {
   text-align: center;
   font-size: @footerSize;
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 .cf:after {
@@ -193,20 +193,22 @@ footer {
 
 
 p {
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
+  word-wrap: break-word;
 }
 
 h1 {
   font-size: @tripTitleSize;
 }
 
+/*
 .content a {  border-bottom: 1px solid @lineColor }
 .content a:hover {  border-bottom-width: 1px }
 .content .photo a {  border: none !important }
 
 .content ul,
 .content ol {
-  margin: 20px;
+  margin: 2rem;
   list-style-position: inside;
 }
 
@@ -214,15 +216,15 @@ h1 {
   list-style: disc;
   list-style-position: inside;
 }
-
+*/
 
 
 .tags {
-  margin: 20px 0 20px 0;
+  margin: 2rem 0 2rem 0;
   color: @minorTextColor;
 }
 .tags a {
-  margin-left: 15px;
+  margin-left: 1.5rem;
   color: @minorTextColor;
   border-bottom: 1px solid @lineColor;
 }
@@ -234,7 +236,7 @@ a {  outline: none }
 svg {  fill: currentColor }
 
 .photo-post h2 {
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -259,16 +261,14 @@ svg {  fill: currentColor }
     letter-spacing: 0.3rem;
     padding: 1rem;
   }
+}
 
-  &:hover {
-    .trip-box-title {
-      background: rgba(0,0,0,0.25);
-      background: -moz-radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
-      background: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,rgba(0,0,0,0.25)),color-stop(100%,rgba(0,0,0,0.75)));
-      background: -webkit-radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
-      background: -o-radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
-      background: -ms-radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
-      background: radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
-    }
-  }
+body.no-touch .trip-box:hover .trip-box-title {
+  background: rgba(0,0,0,0.25);
+  background: -moz-radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
+  background: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,rgba(0,0,0,0.25)),color-stop(100%,rgba(0,0,0,0.75)));
+  background: -webkit-radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
+  background: -o-radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
+  background: -ms-radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
+  background: radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
 }
