@@ -1,4 +1,4 @@
-<div class="post">
+<article>
   <div class="date">
     <a href="<?php echo getPostUrl($post) ?>" title="<?php echo $post->date('F d, Y') ?>">
       <?php echo $post->date('d M') ?>
@@ -25,4 +25,4 @@
       <?php endforeach ?>
     </div>
   <?php endif ?>
-</div>
+</article>

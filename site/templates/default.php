@@ -1,4 +1,4 @@
-<?php snippet('header') ?>
+<?php snippet('header-with-nav') ?>
 
 <h1><?php echo $page->title()->html() ?></h1>
 

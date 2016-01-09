@@ -2,7 +2,9 @@
 
 title: Trip
 pages: false
-files: false
+files:
+  type: image
+  max: 1
 deletable: false
 fields:
   title:

@@ -4,17 +4,22 @@
 @dateFont = Futura, 'Century Gothic', AppleGothic, sans-serif;;
 @monospaceFont = "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 
-@contentWidth = 875px;
-@captionSize = 16px;
-@dateSize = 15px;
-@titleSize = 25px;
-@headerSize = 72px;
-@footerSize = 13px;
+/* http://www.pearsonified.com/typography/ */
+@contentWidth = 87.5rem;
+@textSize = 1.8rem;
+@textLineHeight = 2.9rem;
+@captionSize = 1.6rem;
+@dateSize = 1.6rem;
+@postTitleSize = 2.9rem;
+@tripTitleSize = 4.7rem;
+@siteTitleSize = 7.2rem;
+@siteDescSize = 2.3rem;
+@footerSize = 1.3rem;
 
 @bgColor = #fff;
 @titleColor = #c2464c;
 @textColor = #292929;
-@minorTextColor = #c7c7c7;
+@minorTextColor = #a7a7a7;
 @lineColor = #eeeeee;
 @linkColor = #c2464c;
 @linkHoverColor = #292929;
@@ -28,20 +33,21 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: @contentWidth+50px) {
+@media screen and (min-width: @contentWidth+5rem) {
   html {
     margin-left: calc(~"100vw - 100%");
     margin-right: 0;
   }
 }
 
-html { font-size: @captionSize }
+html { font-size: 10px; }
 
 body {
   background: @bgColor;
   color: @textColor;
-  font: 1em/1.6 @bodyFont;
-  margin: 0 0 0 0;
+  font-family: @bodyFont;
+  font-size: @textSize;
+  margin: 0;
 }
 
 h1, h2, h3 {  
@@ -62,15 +68,12 @@ a:hover,
 a:active {  color: @linkHoverColor }
 
 header {
-  color: @minorTextColor;
-  position: relative;
-  margin-bottom: 30px;
+  text-align: center;
 
   h1 {
     color: @titleColor;
     font-weight: bold;
-    text-align: center;
-    font-size: @headerSize;
+    font-size: @siteTitleSize;
     line-height: 90%;
     margin-bottom: 30px;
   
@@ -83,87 +86,36 @@ header {
       color: @linkHoverColor 
     }
   }
-  
-  ul {  margin: 0 -0.25em 1.5em }
-  li {
-    list-style: none;
-    text-transform: lowercase;
-  }
-  li a {
-    background: @bgColor;
-    display: block;
-    padding: 0 0.25em;
-    text-decoration: none;
-  }
-  li a:hover {  background: none }
 
-  nav {
-    text-align: center;
+  #description {
+    color: @minorTextColor;
+    font-family: @bodyFont;
+    font-size: @siteDescSize;
+    margin-bottom: 20px;
+    margin-top: -5px;
+  }
+}
 
-    a {
-      font-family: @bodyFont;
-      margin-right: 20px;
+
+nav {
+  margin: 1rem 0;
+  text-align: center;
+
+  a {
+    font-family: @bodyFont;
+    margin-right: 20px;
   
-      &:last-child {
-        margin-right: 0px 
-      }
+    &:last-child {
+      margin-right: 0px 
     }
   }
 }
 
 
-#description {
-  font-family: @bodyFont;
-  font-size: @captionSize;
-  text-align: center;
-  line-height: autopx;
-  margin-bottom: 20px;
-  margin-top: -5px;
-}
-
-#container {
-  margin: 30px auto;
-  padding: 0 10px;
-  max-width: @contentWidth;
-}
-
-#posts {
-  background-color: @bgColor;
-  border-top: 1px solid @lineColor;
-  border-bottom: 1px solid @lineColor;
-  padding-top: 20px;
-/*  text-align: center; */
-  font-size: @captionSize;
-}
-
-.post {
-  margin-bottom: 60px;
-
-  .date {
-    font-size: @dateSize;
-  }
-}
-
-footer {
-  text-align: center;
-  font-size: @footerSize;
-  margin-top: 30px;
-}
-
-.cf:after {
-  content:"";
-  display:table;
-  clear:both;
-}
-
-
-#pagination {
-  font-size: @captionSize;
+#pagination {  /* also a <nav> */
   min-width: 150px;
-  line-height: auto;
   margin: 40px 0;
   white-space: nowrap;
-  text-align: center;
  
   ul {
     list-style: none;
@@ -183,14 +135,69 @@ footer {
 
 
 
+
+
+
+#container {
+  margin: 30px auto;
+  padding: 0 10px;
+  max-width: @contentWidth;
+}
+
+#posts {
+  background-color: @bgColor;
+  border-top: 1px solid @lineColor;
+  border-bottom: 1px solid @lineColor;
+  padding-top: 20px;
+/*  text-align: center; */
+  line-height: @textLineHeight;
+}
+
+article {
+  margin-bottom: 60px;
+
+  .date {
+    font-size: @dateSize;
+  }
+  img, object, embed {
+    max-width: 100%;
+    nowhitespace: afterproperty;
+    //  width: @contentWidth;
+    /* width - for stretching small images */
+    width: 100%;
+    height: auto;
+  }
+}
+
+h2 {
+  font-size: @postTitleSize;
+//  padding-bottom: 15px;
+  margin-top: 0;
+}
+
+
+
+footer {
+  text-align: center;
+  font-size: @footerSize;
+  margin-top: 30px;
+}
+
+.cf:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+
+
+
 p {
   margin-bottom: 25px;
 }
 
-h2 {
-  font-size: @titleSize;
-//  padding-bottom: 15px;
-  margin-top: 0;
+h1 {
+  font-size: @tripTitleSize;
 }
 
 .content a {  border-bottom: 1px solid @lineColor }
@@ -208,18 +215,6 @@ h2 {
   list-style-position: inside;
 }
 
-
-
-.post img,
-.post object,
-.post embed {
-  max-width: 100%;
-  nowhitespace: afterproperty;
-//  width: @contentWidth;
-  /* width - for stretching small images */
-  width: 100%;
-  height: auto;
-}
 
 
 .tags {
@@ -241,4 +236,39 @@ svg {  fill: currentColor }
 .photo-post h2 {
   font-size: 25px;
   font-weight: bold;
+}
+
+.trip-box {
+  display: table;
+  width: 100%;
+  height: 20rem;
+  border: solid 1px #666;
+  margin: 3rem 0;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  .trip-box-title {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: @tripTitleSize;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.4), -1px -1px 0 rgba(0,0,0,0.4), 1px -1px 0 rgba(0,0,0,0.4), -1px 1px 0 rgba(0,0,0,0.4), 1px 1px 0 rgba(0,0,0,0.4);
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    padding: 1rem;
+  }
+
+  &:hover {
+    .trip-box-title {
+      background: rgba(0,0,0,0.25);
+      background: -moz-radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
+      background: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,rgba(0,0,0,0.25)),color-stop(100%,rgba(0,0,0,0.75)));
+      background: -webkit-radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
+      background: -o-radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
+      background: -ms-radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
+      background: radial-gradient(center,circle cover,rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.75) 100%);
+    }
+  }
 }
