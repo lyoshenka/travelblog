@@ -2,8 +2,12 @@ Title: Iceland
 
 ----
 
-Start: 
+Start: 2015-01-25
 
 ----
 
-End: 
+End: 2015-02-01
+
+----
+
+Description: A week in Iceland for us and Grin's parents. Swam in the blue lagoon, saw the northern lights, walked on glaciers, ate fermented shark, climbed mountains, got stuck in the snow, and managed to stay warm during the looong nights of Iceland in the winter.
