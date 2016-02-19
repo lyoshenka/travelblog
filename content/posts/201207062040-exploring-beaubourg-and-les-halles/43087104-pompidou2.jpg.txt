@@ -1,0 +1,5 @@
+Avgcolor: #2b3032
+
+----
+
+Caption: Pompidou

@@ -1,0 +1,5 @@
+Avgcolor: #7f693b
+
+----
+
+Caption: 

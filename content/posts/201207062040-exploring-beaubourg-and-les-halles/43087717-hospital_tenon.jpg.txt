@@ -1,0 +1,5 @@
+Avgcolor: #75a2cd
+
+----
+
+Caption: Hôpital Tenon

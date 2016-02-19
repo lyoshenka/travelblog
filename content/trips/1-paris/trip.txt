@@ -2,8 +2,12 @@ Title: Paris
 
 ----
 
-Start: 
+Start: 2012-06-30
 
 ----
 
-End: 
+End: 2012-08-07
+
+----
+
+Description: 

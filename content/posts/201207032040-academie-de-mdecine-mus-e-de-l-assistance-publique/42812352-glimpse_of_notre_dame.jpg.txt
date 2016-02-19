@@ -1,0 +1,5 @@
+Avgcolor: #1d201c
+
+----
+
+Caption: A first glimpse of Notre Dame

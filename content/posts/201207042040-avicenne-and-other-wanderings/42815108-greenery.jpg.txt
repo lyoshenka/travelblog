@@ -1,0 +1,5 @@
+Avgcolor: #c0bfbc
+
+----
+
+Caption: Greenery always seems to be bursting from the seams.

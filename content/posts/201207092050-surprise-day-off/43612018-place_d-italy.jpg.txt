@@ -1,0 +1,5 @@
+Avgcolor: #4e5d33
+
+----
+
+Caption: Place d'Italie
