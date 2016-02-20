@@ -10,7 +10,7 @@
   <?php echo $post->text()->kirbytext() ?>
 
   <?php if ($post->hasImages()): ?>
-    <div class="photoset cf" data-layout="<?php echo getPhotosetLayout($post->images()->count(), $post->imagelayout()) ?>">
+    <div class="photoset cf" data-no-instant data-layout="<?php echo getPhotosetLayout($post->images()->count(), $post->imagelayout()) ?>">
       <?php foreach($post->images()->sortBy('sort', 'asc') as $image): ?>
       <?php $dimensions = clone $image->dimensions(); $dimensions->fitWidth(c::get('autothumb.width')); ?>
         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"

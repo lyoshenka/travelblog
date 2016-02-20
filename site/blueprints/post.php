@@ -38,6 +38,7 @@ fields:
       none: none
       paris: Paris
       hawaii: Hawaii
+      vancouver-cascades: Vancouver / Cascades
       iceland: Iceland
       southeast-asia: Southeast Asia
       south-africa: South Africa
