@@ -1,4 +1,4 @@
-Avgcolor: #777162
+Avgcolor: #6f584f
 
 ----
 

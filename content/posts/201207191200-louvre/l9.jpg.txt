@@ -1,0 +1,9 @@
+Avgcolor: #786d51
+
+----
+
+Caption: my poster!
+
+----
+
+Sort: 11
