@@ -1,0 +1,9 @@
+Avgcolor: #3c4134
+
+----
+
+Caption: Second campsite
+
+----
+
+Sort: 14

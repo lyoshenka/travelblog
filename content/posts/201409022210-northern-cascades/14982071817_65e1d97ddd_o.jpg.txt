@@ -1,0 +1,9 @@
+Avgcolor: #817c5e
+
+----
+
+Caption: Quick hike before leaving McAlester Lake
+
+----
+
+Sort: 16

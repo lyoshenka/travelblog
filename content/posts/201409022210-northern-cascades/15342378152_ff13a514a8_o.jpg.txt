@@ -1,0 +1,9 @@
+Avgcolor: #3c413a
+
+----
+
+Caption: The Fellowship: Stacy (Gandalf), Bill (Aragorn), Nick (Gimli), Papa (Boromir), Sara (Samwise), Gabe (Frodo), Panna (Legolas), Grin (Pippin) and Diana (Merry).
+
+----
+
+Sort: 1

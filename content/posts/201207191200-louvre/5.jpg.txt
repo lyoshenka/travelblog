@@ -1,0 +1,9 @@
+Avgcolor: #7f7769
+
+----
+
+Caption: 
+
+----
+
+Sort: 10

@@ -1,0 +1,9 @@
+Avgcolor: #0b0d0c
+
+----
+
+Caption: Campfire the first night
+
+----
+
+Sort: 6

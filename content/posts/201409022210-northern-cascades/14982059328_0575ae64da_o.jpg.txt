@@ -1,0 +1,9 @@
+Avgcolor: #88857a
+
+----
+
+Caption: The bear! It's the small black dot in the middle.
+
+----
+
+Sort: 19

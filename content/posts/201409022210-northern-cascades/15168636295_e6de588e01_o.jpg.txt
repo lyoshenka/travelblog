@@ -1,0 +1,9 @@
+Avgcolor: #656244
+
+----
+
+Caption: Warmup hike near McAlester Lake
+
+----
+
+Sort: 22

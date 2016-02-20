@@ -1,0 +1,9 @@
+Avgcolor: #444c36
+
+----
+
+Caption: First night campsite
+
+----
+
+Sort: 5

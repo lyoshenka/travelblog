@@ -1,0 +1,9 @@
+Avgcolor: #3a4f49
+
+----
+
+Caption: Lake Diablo panorama
+
+----
+
+Sort: 2

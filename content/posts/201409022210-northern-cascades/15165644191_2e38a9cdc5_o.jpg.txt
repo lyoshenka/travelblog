@@ -1,0 +1,9 @@
+Avgcolor: #4c5b66
+
+----
+
+Caption: Us at Lake Diablo
+
+----
+
+Sort: 4

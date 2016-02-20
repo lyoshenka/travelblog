@@ -1,0 +1,9 @@
+Avgcolor: #4b5c51
+
+----
+
+Caption: Lake Diablo
+
+----
+
+Sort: 3

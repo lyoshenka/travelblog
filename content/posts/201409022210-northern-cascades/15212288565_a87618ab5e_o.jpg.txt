@@ -1,0 +1,9 @@
+Avgcolor: #443d2d
+
+----
+
+Caption: Ride the log
+
+----
+
+Sort: 23

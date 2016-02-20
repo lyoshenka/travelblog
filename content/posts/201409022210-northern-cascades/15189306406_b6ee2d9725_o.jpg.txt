@@ -1,0 +1,9 @@
+Avgcolor: #40423e
+
+----
+
+Caption: The campsite at McAlester Lake
+
+----
+
+Sort: 13

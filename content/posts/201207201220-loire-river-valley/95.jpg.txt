@@ -1,0 +1,9 @@
+Avgcolor: #665e52
+
+----
+
+Caption: servants quarters
+
+----
+
+Sort: 13
