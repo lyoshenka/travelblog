@@ -4,9 +4,10 @@ content/**/*.png filter=lfs diff=lfs merge=lfs -text
 content/**/*.gif filter=lfs diff=lfs merge=lfs -text
 content/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
 content/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+content/**/*.mov filter=lfs diff=lfs merge=lfs -text
 content/*.jpg filter=lfs diff=lfs merge=lfs -text
 content/*.png filter=lfs diff=lfs merge=lfs -text
 content/*.gif filter=lfs diff=lfs merge=lfs -text
 content/*.mp3 filter=lfs diff=lfs merge=lfs -text
 content/*.mp4 filter=lfs diff=lfs merge=lfs -text
-panel/assets -filter -diff -merge
+content/*.mov filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,9 @@
+Avgcolor: #817b70
+
+----
+
+Caption: 
+
+----
+
+Sort: 7

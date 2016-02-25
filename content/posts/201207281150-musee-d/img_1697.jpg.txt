@@ -1,0 +1,9 @@
+Avgcolor: #505653
+
+----
+
+Caption: 
+
+----
+
+Sort: 14
