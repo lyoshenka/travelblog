@@ -1,4 +1,4 @@
-Title: Telaga Tujuh (Seven wells)
+Title: Telaga Tujuh (Seven Fells)
 
 ----
 
@@ -18,8 +18,16 @@ Tags:
 
 ----
 
-Text: <p>The sign post reads: “legend has it that fairies used to come down to the waterfall to bathe and frolic”</p>
+Text: 
+
+The sign post reads: 
+
+> Legend has it that fairies used to come down to the waterfall to bathe and frolic.
 
 ----
 
-Captions:
+Captions: 
+
+----
+
+Imagelayout: 21212

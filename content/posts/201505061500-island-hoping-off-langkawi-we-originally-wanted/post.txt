@@ -1,4 +1,4 @@
-Title: Island hoping off Langkawi
+Title: Island Hopping Off Langkawi
 
 ----
 
@@ -18,7 +18,7 @@ Tags:
 
 ----
 
-Text: We originally wanted to go snorkling, but the prime snorkling (Langkawi Coral) was a long boat ride away, and this deal was much more convieniant and reasonable. It was a half day boat ride through the islands with 3 stops: Island of the pregnant lady, watching Eagle feeding, and Beras Basah Island.
+Text: We originally wanted to go snorkling, but the prime snorkling (Langkawi Coral) was a long boat ride away, and this deal was much more convieniant and reasonable. It was a half-day boat ride through the islands with 3 stops: Island of the Pregnant Lady, watching eagles feeding, and Beras Basah Island.
 
 ----
 
@@ -26,4 +26,4 @@ Captions:
 
 ----
 
-Imagelayout: 
+Imagelayout: 1,2,1,1,3,2

@@ -23,3 +23,7 @@ Text: We decided to walk to dinner from the train station to take in the city. I
 ----
 
 Captions: 
+
+----
+
+Imagelayout: 13213

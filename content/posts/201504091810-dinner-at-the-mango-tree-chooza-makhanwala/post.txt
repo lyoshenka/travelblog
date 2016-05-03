@@ -1,4 +1,4 @@
-Title: Dinner at the Mango tree
+Title: Dinner at the Mango Tree
 
 ----
 
@@ -23,3 +23,7 @@ Text: Chooza Makhanwala (chicken makhani), Palak Paneer and garlin naan. MMMmmmm
 ----
 
 Captions: 
+
+----
+
+Imagelayout: 

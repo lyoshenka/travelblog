@@ -1,4 +1,4 @@
-Title: More images of Georgetown Penang
+Title: More Images of Georgetown Penang
 
 ----
 
@@ -26,4 +26,4 @@ Captions:
 
 ----
 
-Imagelayout: 
+Imagelayout: 1,2,1,2

@@ -1,4 +1,4 @@
-Title: Galle sunset
+Title: Galle Sunset
 
 ----
 
@@ -18,7 +18,7 @@ Tags:
 
 ----
 
-Text: <p>Loved walking around the walls of the old city.</p>
+Text: Loved walking around the walls of the old city.
 
 ----
 
@@ -26,4 +26,4 @@ Captions:
 
 ----
 
-Imagelayout: 
+Imagelayout: 23212

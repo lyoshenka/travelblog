@@ -3,7 +3,7 @@
 
 function getPhotosetLayout($count, $forcedLayout = null) {
   if ($forcedLayout != "") {
-    return $forcedLayout;
+    return preg_replace('/[^0-9]/', '', $forcedLayout);
   }
 
   if ($count > 3 && $count%3 == 1) {

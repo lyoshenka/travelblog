@@ -18,7 +18,7 @@ Tags:
 
 ----
 
-Text: <p>We arrived at 7am after a short 4.5 hour “red eye” flight but were nevertheless defermined to check out the city.</p>
+Text: We arrived at 7am after a short 4.5 hour “red eye” flight but were nevertheless defermined to check out the city.
 
 ----
 
@@ -26,4 +26,4 @@ Captions:
 
 ----
 
-Imagelayout: 
+Imagelayout: 22211

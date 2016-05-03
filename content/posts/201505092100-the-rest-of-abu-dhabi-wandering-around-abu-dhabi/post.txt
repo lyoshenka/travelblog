@@ -30,4 +30,4 @@ Captions:
 
 ----
 
-Imagelayout: 
+Imagelayout: 2,1,3,2

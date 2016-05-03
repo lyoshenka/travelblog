@@ -1,4 +1,4 @@
-Title: Arrival in Malacca
+Title: Arrival in Melaka
 
 ----
 
@@ -18,7 +18,7 @@ Tags:
 
 ----
 
-Text: <p>On the bus, Grin made faces at a little german girl and kept her laughing just about the whole way. At the end, the bus into the crowded city was moving so slowly at a certain point it was much faster for us to get out and walk the rest of the way! We immediately walked past Stadthuys and the old Dutch parts of the city to make it to our hotel Jalan Jalan so we could leave our backpacks at home for a rest.</p>
+Text: On the bus, Grin made faces at a little german girl and kept her laughing just about the whole way. At the end, the bus into the crowded city was moving so slowly at a certain point it was much faster for us to get out and walk the rest of the way! We immediately walked past Stadthuys and the old Dutch parts of the city to make it to our hotel Jalan Jalan so we could leave our backpacks at home for a rest.
 
 ----
 
@@ -26,4 +26,4 @@ Captions:
 
 ----
 
-Imagelayout: 
+Imagelayout: 223

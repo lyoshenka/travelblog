@@ -1,4 +1,4 @@
-Title: Langkawi cable car and SkyBridge
+Title: Langkawi Cablecar and SkyBridge
 
 ----
 
@@ -18,8 +18,15 @@ Tags:
 
 ----
 
-Text: <p>“The gradient is said to be the steepest in the world at 42°. It also has the longest free span for a mono-cable car at 950 m (3,120 ft).” (wikipedia) Panoramas in 360°!</p>
+Text: 
+
+> The gradient is said to be the steepest in the world at 42°. It also has the longest free span for a mono-cable car at 950 m (3,120 ft).
+> *Wikipedia*
 
 ----
 
-Captions:
+Captions: 
+
+----
+
+Imagelayout: 3111111

@@ -1,4 +1,4 @@
-Title: Burger’s King for dinner
+Title: Burger’s King for Dinner
 
 ----
 
@@ -26,4 +26,4 @@ Captions:
 
 ----
 
-Imagelayout: 
+Imagelayout: 22

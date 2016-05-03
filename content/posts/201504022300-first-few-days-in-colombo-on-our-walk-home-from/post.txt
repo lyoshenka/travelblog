@@ -42,3 +42,7 @@ Captions:
   filename: >
     first-few-days-in-colombo-on-our-walk-home-from_7.jpg
   caption: Amazing sunsets
+
+----
+
+Imagelayout: 13121

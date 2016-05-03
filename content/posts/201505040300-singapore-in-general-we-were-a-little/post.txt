@@ -1,4 +1,4 @@
-Title: Singapore
+Title: Singapore 2
 
 ----
 
@@ -18,8 +18,12 @@ Tags:
 
 ----
 
-Text: <p>In general we were a little underwhelmed, but we did really enjoy Marina bay, the helix bridge,and the gardens by the Bay. At the gardens we did the sky walk through super trees and sat for a while by a giant koi pond. Then we found maxwell hawker center and ate carrot cake (Nothing to do with the kind you&rsquo;re thinking of), satay, and passion fruit + soursop juices. Later we went to the Night Safari where our favorite animals were probably the Slow Loris.</p>
+Text: In general we were a little underwhelmed, but we did really enjoy Marina bay, the helix bridge,and the gardens by the Bay. At the gardens we did the sky walk through super trees and sat for a while by a giant koi pond. Then we found maxwell hawker center and ate carrot cake (Nothing to do with the kind you’re thinking of), satay, and passion fruit + soursop juices. Later we went to the Night Safari where our favorite animals were probably the Slow Loris.
 
 ----
 
-Captions:
+Captions: 
+
+----
+
+Imagelayout: 2231

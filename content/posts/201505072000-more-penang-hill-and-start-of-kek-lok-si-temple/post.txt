@@ -22,4 +22,8 @@ Text:
 
 ----
 
-Captions:
+Captions: 
+
+----
+
+Imagelayout: 2,2,1,3,2

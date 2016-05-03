@@ -18,7 +18,7 @@ Tags:
 
 ----
 
-Text: <p>Our bus ride from Melacca was made exciting by twice having to leave the bus and run through some building for different customs proceedings. We were running because the bus driver said “go, quickly, quickly” while pointing at the building, and then pulled away, so we were somewhat terrified of getting left behind with some of our belongings still on board.</p>
+Text: Our bus ride from Melacca was made exciting by twice having to leave the bus and run through some building for different customs proceedings. We were running because the bus driver said “go, quickly, quickly” while pointing at the building, and then pulled away, so we were somewhat terrified of getting left behind with some of our belongings still on board.
 
 ----
 
@@ -26,4 +26,4 @@ Captions:
 
 ----
 
-Imagelayout: 
+Imagelayout: 231121

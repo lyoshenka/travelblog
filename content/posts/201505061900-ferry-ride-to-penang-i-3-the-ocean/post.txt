@@ -1,4 +1,4 @@
-Title: Ferry ride to Penang
+Title: Ferry Ride to Penang
 
 ----
 
@@ -18,8 +18,12 @@ Tags:
 
 ----
 
-Text: <p>I &lt;3 the ocean</p>
+Text: <p>I <3 the ocean</p>
 
 ----
 
-Captions:
+Captions: 
+
+----
+
+Imagelayout: 2,2

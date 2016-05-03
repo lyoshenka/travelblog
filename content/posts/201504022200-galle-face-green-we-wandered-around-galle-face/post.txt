@@ -23,3 +23,7 @@ Text: We wandered around Galle Face park a little north around sunset. Many scho
 ----
 
 Captions: 
+
+----
+
+Imagelayout: 131212

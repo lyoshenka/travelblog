@@ -18,7 +18,7 @@ Tags:
 
 ----
 
-Text: <p>The cave temples were hard to photograph but really amazing! After all the other excitement of the day made it there just in time to get in and after watch the sun set from the top.</p>
+Text: The cave temples were hard to photograph but really amazing! After all the other excitement of the day made it there just in time to get in and after watch the sun set from the top.
 
 ----
 
@@ -26,4 +26,4 @@ Captions:
 
 ----
 
-Imagelayout: 
+Imagelayout: 221311

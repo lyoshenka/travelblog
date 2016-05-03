@@ -1,4 +1,4 @@
-Title: Malacca morning of Wesak/Vesak day
+Title: Melaka, morning of Wesak/Vesak Day
 
 ----
 
@@ -18,8 +18,12 @@ Tags:
 
 ----
 
-Text: <p>I was skeptical of having dim sum for breakfast, but Low Yong Mow was amazing, particularly the Pao (steamed pork buns). Then we stumbled upon people getting ready for the Wesak day festivities by putting hooks and spears through each others flesh - right on our little street!</p>
+Text: I was skeptical of having dim sum for breakfast, but Low Yong Mow was amazing, particularly the Pao (steamed pork buns). Then we stumbled upon people getting ready for the Wesak Day festivities by putting hooks and spears through each others flesh - right on our little street!
 
 ----
 
-Captions:
+Captions: 
+
+----
+
+Imagelayout: 2312

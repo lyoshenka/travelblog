@@ -20,9 +20,9 @@ Tags:
 
 Text: 
 
-<p>What a fun tournament! Diana’s team the Care Bears won out in the women’s division, and Grin lead his pick up team to pulled off one victory too. Dinner afterward at Wadi Hadramawt (Arabic) of minced lamb, garlic sauce, fried calamari, and a giant fruit cup/smoothie. Delicious, but not as special as trying a bunch of local food including yummy satay with Grin’s teammates the night before at Suzi’s corner.</p>
+What a fun tournament! Diana’s team the Care Bears won out in the women’s division, and Grin lead his pick up team to pulled off one victory too. Dinner afterward at Wadi Hadramawt (Arabic) of minced lamb, garlic sauce, fried calamari, and a giant fruit cup/smoothie. Delicious, but not as special as trying a bunch of local food including yummy satay with Grin’s teammates the night before at Suzi’s corner.
 
-<p>Afterward we totally changed our plans for Malaysia. Decided that we were crazy to try to do Teman Negara and Tioman, and everyone had been raving about Penang. So we switched to staying on the west coast to do Melaka, Singapore, Langkawi and Penang. Booked (almost) all our travel and hotels for the rest of the trip in an exhausted delusional frenzy.</p>
+Afterward we totally changed our plans for Malaysia. Decided that we were crazy to try to do Teman Negara and Tioman, and everyone had been raving about Penang. So we switched to staying on the west coast to do Melaka, Singapore, Langkawi and Penang. Booked (almost) all our travel and hotels for the rest of the trip in an exhausted delusional frenzy.
 
 ----
 
@@ -30,4 +30,4 @@ Captions:
 
 ----
 
-Imagelayout: 
+Imagelayout: 2121

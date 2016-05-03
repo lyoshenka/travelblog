@@ -18,7 +18,7 @@ Tags:
 
 ----
 
-Text: <p>Saturday we got a later start than we originally intended and the trains were all also delayed because of the new year. It was crammed to say the least but we amazingly got one seat to share. Some of the other travelers were chatty and multiple programmers inquired if Grin would like to outsource some work to them. We made it to Anuradhapura in the late afternoon and went straight to check out the Sri Maha Bodhi tree - the oldest historically authenticated tree in the world with uninterrupted successions of guardians for over 2000 years (per lonely planet). We happened upon a procession carrying a cloth to be laid around the tree and were beckoned to join in carrying it! After that we took a tuk tuk to Thilak holiday home. We went for a nighttime dip in the pool in the rain and lighting lit up the sky in purple as “flying foxes” (huge bats) flew around overhead and shook nearby branches. Got a great night sleep before a busy Sunday!</p>
+Text: Saturday we got a later start than we originally intended and the trains were all also delayed because of the new year. It was crammed to say the least but we amazingly got one seat to share. Some of the other travelers were chatty and multiple programmers inquired if Grin would like to outsource some work to them. We made it to Anuradhapura in the late afternoon and went straight to check out the Sri Maha Bodhi tree - the oldest historically authenticated tree in the world with uninterrupted successions of guardians for over 2000 years (per lonely planet). We happened upon a procession carrying a cloth to be laid around the tree and were beckoned to join in carrying it! After that we took a tuk tuk to Thilak holiday home. We went for a nighttime dip in the pool in the rain and lighting lit up the sky in purple as “flying foxes” (huge bats) flew around overhead and shook nearby branches. Got a great night sleep before a busy Sunday!
 
 ----
 
@@ -26,4 +26,4 @@ Captions:
 
 ----
 
-Imagelayout: 
+Imagelayout: 13132

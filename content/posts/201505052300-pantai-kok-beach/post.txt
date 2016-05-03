@@ -1,4 +1,4 @@
-Title: Pantai Kok beach
+Title: Pantai Kok Beach
 
 ----
 
@@ -22,4 +22,8 @@ Text:
 
 ----
 
-Captions:
+Captions: 
+
+----
+
+Imagelayout: 1,2,1,3,1,1,1
