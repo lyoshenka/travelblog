@@ -484,7 +484,7 @@ c::set('thumbs.driver', 'im');
 c::set('autopublish.templates', ['post', 'trip']);
 
 c::set('autothumb.enabled', true);
-c::set('autothumb.width', 875);
+c::set('autothumb.height', 350);
 c::set('autothumb.quality', 55);
 
 c::set('pagination-posts', 10);

@@ -10,11 +10,11 @@ function autothumbhook( $file ) {
 
   try 
   {
-    $width = c::get('autothumb.width', 500);
+    $height = c::get('autothumb.height', 500);
     $quality = c::get('autothumb.quality', 70);
 
     $dimensions = clone $file->dimensions(); 
-    $dimensions->fitWidth($width);
+    $dimensions->fitHeight($height);
     $thumb = thumb($file, ['width' => $dimensions->width(), 'height' => $dimensions->height(), 'quality' => $quality]);
     echo $thumb->root();
   } 
