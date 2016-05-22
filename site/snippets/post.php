@@ -1,6 +1,6 @@
 <article>
   <div class="date">
-    <a href="<?php echo getPostUrl($post) ?>" title="<?php echo $post->date('F d, Y') ?>">
+    <a href="<?php echo $post->url() ?>" title="<?php echo $post->date('F d, Y') ?>">
       <?php echo $post->date('d M') ?>
     </a>
   </div>

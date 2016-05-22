@@ -1,9 +1,9 @@
 <?php
 
-echo page('posts')->children()->visible()->sortBy('date','desc')->limit(20)->feed(array(
+echo page('trips')->grandChildren()->visible()->sortBy('date','desc')->limit(50)->feed(array(
   'title'       => $page->title(),
   'description' => $page->description(),
-  'link'        => 'blog',
+  'link'        => 'home',
 ));
 
 ?>
