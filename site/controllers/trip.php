@@ -1,10 +1,11 @@
 <?php
 
 return function($site, $pages, $page) {
-  $posts = $site->find('posts')
+  $posts = $page
+//    ->find('posts')
     ->children()
     ->visible()
-    ->filterBy('category', $page->slug())
+//    ->filterBy('category', $page->slug())
     ->sortBy('date', 'asc')
     ->paginate(c::get('pagination-posts'));
 

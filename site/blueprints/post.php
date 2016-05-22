@@ -28,20 +28,11 @@ fields:
     label: Author
     type: user
     width: 1/2
-  category:
-    label: Trip
-    required: true
-    type: select
+  imagelayout:
+    label: Photo Layout
+    type: text
+    help: How the images will be arranged. For example, "231" means the 1st row has 2 images, the 2nd row has 3 images, and the 3rd row has 1 image. Total of 6 images.
     width: 1/2
-    options:
-      '': ''
-      none: none
-      paris: Paris
-      hawaii: Hawaii
-      vancouver-cascades: Vancouver / Cascades
-      iceland: Iceland
-      southeast-asia: Southeast Asia
-      south-africa: South Africa
   tags:
     label: Tags
     type: tags
@@ -50,7 +41,4 @@ fields:
   text:
     label: Text
     type: textarea
-  imagelayout:
-    label: Photo Layout
-    type: text
-    help: How the images will be arranged. For example, "231" means the 1st row has 2 images, the 2nd row has 3 images, and the 3rd row has 1 image. Total of 6 images.
+

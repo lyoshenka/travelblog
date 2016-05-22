@@ -1,7 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Trip
-pages: false
+pages:
+  template: post
 files:
   type: image
   max: 1
