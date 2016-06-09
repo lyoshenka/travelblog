@@ -3,6 +3,10 @@
 title: Trip
 pages:
   template: post
+  num:
+    mode: date
+    field: date
+    format: YmdHi
 files:
   type: image
   max: 1
