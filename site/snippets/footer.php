@@ -41,7 +41,6 @@
 
     ready(function(){ 
       layzr.handlers(true);
-      addClass(document.body, touch ? 'touch' : 'no-touch');
       if (touch) {
         window.scrollBy(0, 1); // hack to fix layzr scroll detection on mobile
 //        layzr.update().check();
@@ -49,6 +48,8 @@
     });
 
     InstantClick.on('change', function() {
+console.log('onchange1');
+      addClass(document.body, touch ? 'touch' : 'no-touch');
       ga('send', 'pageview', location.pathname + location.search);
       GoogleImageLayout.init();
       layzr.update().check();
@@ -58,7 +59,7 @@
     InstantClick.init('mousedown');
   </script>
 
-  <?php //snippet('photoswipe') ?>
+  <?php snippet('photoswipe') ?>
 
 </body>
 

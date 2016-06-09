@@ -18,6 +18,8 @@
              data-normal="<?php echo thumb($image, ['width' => $dimensions->width(), 'height' => $dimensions->height(), 'quality' => c::get('autothumb.quality')])->url() ?>"
              data-width="<?php echo $dimensions->width() ?>" 
              data-height="<?php echo $dimensions->height() ?>" 
+             data-full="<?php echo $image->url() ?>"
+             data-full-size="<?php echo $image->width() ?>x<?php echo $image->height() ?>"
              alt="<?php echo $image->caption() != "" ? $image->caption() : $image->name() ?>"
              title="<?php echo $image->caption() != "" ? $image->caption() : "" ?>"
              style="background:<?php echo $image->avgcolor() != '' ? $image->avgcolor() : '#ffffff' ?>;"
