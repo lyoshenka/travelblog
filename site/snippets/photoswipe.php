@@ -100,7 +100,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             item = {
                 src: imgEl.getAttribute('data-full'),
                 w: parseInt(size[0], 10),
-                h: parseInt(size[1], 10)
+                h: parseInt(size[1], 10),
+                title: imgEl.title
             };
 
 
@@ -214,9 +215,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
             closeOnScroll: false,
             tapToClose: false,
+            loop: false,
             closeElClasses: ['item', 'caption', 'ui', 'top-bar'], 
-
-            
 
             // define gallery index (for URL)
             galleryUID: galleryElement.getAttribute('data-pswp-uid'),
