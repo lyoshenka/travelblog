@@ -1,0 +1,9 @@
+Avgcolor: #826f5c
+
+----
+
+Caption: Many many shanties along the highway
+
+----
+
+Sort: 3

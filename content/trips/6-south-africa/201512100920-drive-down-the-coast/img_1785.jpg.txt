@@ -1,0 +1,9 @@
+Avgcolor: #2d332d
+
+----
+
+Caption: Entering Boulder beach!
+
+----
+
+Sort: 7
