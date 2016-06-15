@@ -260,8 +260,18 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             options.showAnimationDuration = 0;
         }
 
-        // Pass data to PhotoSwipe and initialize it
+        // Pass data to PhotoSwipe
         gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+
+        // hide prev/next arrows when on first/last photo
+        var nextBtn = pswpElement.querySelectorAll('.pswp__button--arrow--right')[0];
+        var prevBtn = pswpElement.querySelectorAll('.pswp__button--arrow--left')[0];
+        gallery.listen('beforeChange', function() {
+          nextBtn.style.display = this.options.loop || this.getCurrentIndex() < this.items.length - 1 ? '' : 'none';
+          prevBtn.style.display = this.options.loop || this.getCurrentIndex() > 0 ? '' : 'none';
+        });
+
+        // init
         gallery.init();
     };
 
