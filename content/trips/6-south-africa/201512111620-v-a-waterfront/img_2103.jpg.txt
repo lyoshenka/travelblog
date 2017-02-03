@@ -1,0 +1,9 @@
+Avgcolor: #6d665f
+
+----
+
+Caption: 
+
+----
+
+Sort: 8

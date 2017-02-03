@@ -1,0 +1,9 @@
+Avgcolor: #a1b2b2
+
+----
+
+Caption: 
+
+----
+
+Sort: 2
