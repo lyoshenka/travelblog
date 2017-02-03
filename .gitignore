@@ -1,5 +1,6 @@
-thumbs/*
-site/accounts/*
-composer.phar
-vendor/
-assets/styles/styles.css
+/thumbs/
+/site/accounts/
+/composer.phar
+/vendor
+/assets/styles/styles.css
+/.idea

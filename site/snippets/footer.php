@@ -6,6 +6,9 @@
 
   </div> <!-- .container -->
 
+  <?php // jquery is ONLY here for photoset-grid ?>
+  <script src="/assets/js/jquery-3.1.1.slim.min.js" data-no-instant></script>
+  <script src="/assets/js/jquery.photoset-grid.min.js" data-no-instant></script>
 
   <script src="/assets/js/layzr.min.js" data-no-instant></script>
   <script src="/assets/js/instantclick.min.js" data-no-instant></script>
@@ -48,10 +51,19 @@
     });
 
     InstantClick.on('change', function() {
-console.log('onchange1');
       addClass(document.body, touch ? 'touch' : 'no-touch');
       ga('send', 'pageview', location.pathname + location.search);
+
+      var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+      if (width > 700) {
+        $('.photoset[data-layout]').photosetGrid({
+          gutter: "10px",
+          highresLinks: true,
+          lowresWidth: 875,
+        });
+      }
       GoogleImageLayout.init();
+
       layzr.update().check();
     });
 
