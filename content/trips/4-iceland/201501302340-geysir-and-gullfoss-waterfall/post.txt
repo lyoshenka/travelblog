@@ -18,4 +18,11 @@ Tags:
 
 ----
 
-Text: Ate a snack in the early morning hours after chasing the Aurora Borealis, a little sleepy despite the excitement. Then set out to see a few more of Iceland's natural wonders. Relaxed at a thermal bath at Fontana spa (ok that's a stock photo, none of us brought cameras in, but the natural clear hot waters were luxurious). As the sun set, made it to Lax-á Geysir Cottages, a few structures doting an otherwise vast empty terrain.
+Text: 
+
+Ate a snack in the early morning hours after chasing the Aurora Borealis, a little sleepy despite the excitement. Then set out to see a few more of Iceland's natural wonders. Relaxed at a thermal bath at Fontana spa (ok that's a stock photo, none of us brought cameras in, but the natural clear hot waters were luxurious). As the sun set, made it to Lax-á Geysir Cottages, a few structures doting an otherwise vast empty terrain.
+
+<div class="embed">
+  <iframe style="display:block;margin:auto" width="700" height="424" src="https://www.youtube.com/embed/BBAWzdCJs-I" frameborder="0" allowfullscreen></iframe>
+</div>
+<br>
