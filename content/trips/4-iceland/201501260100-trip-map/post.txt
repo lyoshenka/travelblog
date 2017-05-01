@@ -1,0 +1,21 @@
+Title: Trip Map
+
+----
+
+Date: 2015-01-26 01:00:00
+
+----
+
+Author: grin
+
+----
+
+Imagelayout: 
+
+----
+
+Tags: 
+
+----
+
+Text: Here's a map of our whole trip route.
