@@ -12,12 +12,27 @@
 
   <?php echo css('assets/styles/normalize.css') ?>
   <?php echo less('assets/styles/styles.less') ?>
+
+  <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//piwik.grin.io/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', '4']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
 </head>
 <body>
   <div id="container">
 
     <header>
-      <a href="<?php echo url() ?>"><h1><?php echo html($site->title()) ?></h1></a> 
+      <a href="<?php echo url() ?>"><h1><?php echo html($site->title()) ?></h1></a>
 
       <p id="description"><?php echo html($site->description()) ?></p>
     </header>
